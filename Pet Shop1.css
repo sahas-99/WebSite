@@ -1,0 +1,179 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5;
+}
+ body{
+    font-family: 'Itim', cursive; 
+    background-color: #c2e4f3;          
+    
+ }
+ .logo h1 {
+	color:#243a6f;
+	font-family: "showcard Gothic";   
+    font-size: 3.5rem;
+    font-weight: 400;
+    position: relative;    
+    z-index: 1;   
+ }
+ 
+ h2,
+ h3,
+ h4 {
+     font-weight: 500;
+ }
+
+ a {
+     color: inherit;
+     text-decoration: none;
+ }
+
+ img{
+     max-width: 100%;
+ }
+ li {
+     list-style-type: none;
+ }
+ .container {
+     max-width: 120rem;
+     margin: 0 auto;
+ }
+ .container-md {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 1200px) {
+    .container {
+        padding: 0 3rem;
+    }
+    .container-md {
+        padding: 0 3rem;
+    }
+}
+.header{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #d1e2e9;
+    overflow: hidden;
+}
+.nav {
+    padding: 1.6rem 0;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-nav {
+    display: none;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+    
+    
+}
+.nav-item:not(:last-child) {
+    margin-right: 0.5rem;
+    font-size: 30px;
+    font-style: normal;
+   
+}
+
+.nav-link:link,
+.nav-link:visited {
+    padding: 0.8rem 1rem;
+    transition: all 300ms ease-in-out;
+}
+.nav-link.icon {
+    font-size: 3rem;
+}
+.hamburger {
+    display: none;
+}
+.cart-icon {
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .menu {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 80%;
+        max-width: 40rem;
+        height: 100%;
+        background-color: #fff;
+        transition: all 500ms ease-in-out;
+        z-index: 100;
+    }
+    .menu .show {
+        left: 0;
+    }
+    .top-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #243a6f;
+        padding: 1rem 1.6rem;
+    }
+    .top-nav .logo {
+        color: #fff;
+    }
+    .top-nav .close {
+        color: #fff;
+        font-size: 3rem;
+        padding: 1rem;
+        cursor: pointer;
+    }
+    .cart-icon {
+        display: block;
+        font-size: 3rem;
+    }
+    .hamburger {
+        display: block;
+        font-size: 3rem;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+    .nav-list {
+        flex-direction: column;
+        align-items: start;
+        padding: 1rem 1.6rem;
+    }
+    .nav-link:link,
+    .nav-link:visited {
+        display: block;
+        font-size: 1.7rem;
+        padding: 1rem 0;
+    }
+    .nav .fix-nav .nav-link {
+        color: #243a6f;
+    }
+    .nav-link.icon {
+        display: none;
+    }
+    body.show::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        z-index: 4;
+    }
+    .nav.show {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+}
+
