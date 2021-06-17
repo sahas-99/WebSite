@@ -5,6 +5,15 @@
 .gfback{
 	background: #b8faf2;
 }
+.gf{
+	width: 70px;
+	height: 80px;
+	position: absolute;
+	margin-left: 89%;
+	animation: slide_right 0.5s linear forwards;
+  	animation-delay: 0.2s;
+  	opacity: 0;
+}
 
 .hd 
 {
