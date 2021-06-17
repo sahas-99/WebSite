@@ -1,2 +1,21 @@
-body{
+*{
+  margin: 0;
+	padding: 0;
+}
+.gfback{
+	background: #b8faf2;
+}
+
+.hd 
+{
+	font-family: "showcard gothic";
+	color: #61f3e1;
+	font-size: 4rem;
+	text-align: left;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	padding-left: 20px;
+	background-size: 100% 10%;
+	-webkit-text-stroke-width:4px;
+	-webkit-text-stroke-color:black;
 }
