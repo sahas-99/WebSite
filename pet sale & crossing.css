@@ -1,2 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body{
+  background-color: #e9d3ff;
+}
+header{
+   background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-pet-simple-white-banner-image_171910.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
 }
