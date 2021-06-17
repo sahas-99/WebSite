@@ -176,4 +176,52 @@ html{
         background-color: rgba(0, 0, 0, 0.8);
     }
 }
+/* Hero */
+.header .hero-img {
+    position: absolute;
+    bottom: -50%;
+    right: 0;
+    height: 70rem;
+    object-fit: contain;
+}
 
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-pet-simple-white-banner-image_171910.jpg);
+    background-size: cover;
+}
+
+    .col {
+        flex-basis: 50%;
+        min-width: 300px;
+    }
+    
+    .col h1{
+        font-size: 50px;
+        line-height: 60px;
+        margin: 25px 0;
+    }
+    .col p {
+        font-size: 20.2px;
+    }
+    .btn{
+        display: inline-block;
+        background:#00b38f;
+        color: #fff;
+        padding: 8px 30px;
+        margin: 30px 0;
+        border-radius: 30px; 
+        transition: background 0.5s;
+    }
+    .btn:hover{
+        background: #563434;
+    }
+    .col-2{
+        width: 100%;
+        font-size: 20px
+    }  
