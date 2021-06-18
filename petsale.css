@@ -1,2 +1,23 @@
+*{
+   margin: 0;
+   padding: 0;
+}
 body{
+    background-color: #e9d3ff;
+    
+}
+.hd{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-pet-simple-pink-banner-image_172322.jpg);
+    background-size: cover;
+    height: 10px;
+    padding: 13%;
+    text-align: center;
+    font-size: 60px;
+    font-family: "showcard Gothic";
+    color: #D278F2;
+	    -webkit-text-stroke-width:7px;
+	    -webkit-text-stroke-color: black;
+}
+.hd:hover{
+    font-size: 4rem;
 }
