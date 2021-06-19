@@ -38,7 +38,6 @@ body{
 	position:absolute;
 	margin-left: 60%;
 }
-
 .hd 
 {
 	font-family: "showcard gothic";
@@ -73,3 +72,55 @@ body{
     opacity: 1;
   }
 }
+.nevi{
+	list-style-type:none;
+	background-color:#0dbfaa;
+	overflow:hidden;
+	width: 18%;
+	margin-left: 82%;
+}
+.vet{
+	text-decoration:none;
+	padding:15px 18px;
+	color:white;
+	display:block;
+	font-size: 20px;
+	font-family:sans-serif;
+	font-style: oblique;
+	letter-spacing: 1px;
+	text-align: center;
+}
+.topic {
+	font-family: 'Itim', cursive;;
+	font-size: 4rem;
+	font-weight: 500px;
+	text-align: center;
+	letter-spacing: 5px;
+	color: #05473f;
+	text-shadow:  5px 3px 12px #61f3e1;
+	margin-top: 5%;
+	animation: fade_in 3s linear forwards;
+ 	animation-delay: 0.2s;
+}
+@keyframes fade_in
+{
+  0%
+  {
+    opacity: 0;
+  }
+  100%
+  {
+    opacity: 1;
+  }
+}
+.loc{
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.08rem;
+	color: #16c2d5;
+	padding-top: 20px;
+	padding-bottom: 10%;
+
+}
+
+
