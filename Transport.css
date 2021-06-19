@@ -1,3 +1,37 @@
 body{
 	background-color: #FCF4A3;
 }
+
+h1.TS{
+	color: #EDFF00FF;
+	font-family: showcard gothic;
+	width: 400;
+	height: 40px;
+	font-size: 85px;
+	-webkit-text-stroke-width:5px;
+	-webkit-text-stroke-color:black;
+	margin-top: -110px;
+	
+}
+
+.text1{
+	-webkit-text-stroke-width:0.2px;
+	-webkit-text-stroke-color:black;
+}
+
+div.T3{
+	box-sizing: border-box;
+}
+	
+.vl {
+	border-style: middle;
+	border-left: 35%;
+}
+
+.table, th {
+	border: 2px solid white;
+	width: 700px;
+	background-color: #FEE227;
+	border-spacing: 20px;
+}
+
