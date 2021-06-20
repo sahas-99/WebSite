@@ -3,3 +3,24 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
+
+body {
+    background-color: #FFFCBB;
+    font: 400 0.9375em/1.5 sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-variant-numeric: lining-nums;
+}
+
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	background-color: #FFFCBB;
+}
+
+
+
