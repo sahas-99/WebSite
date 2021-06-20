@@ -403,4 +403,33 @@ html{
         margin-bottom: 1rem;
     }
 
+    /*-------Offer------*/
+
+.offer{
+	background: radial-gradient(#fff,#008080);
+	margin-top: 80px;
+	padding: 30px o;
+	
+}
+.col-3{
+    width: 100%;
+    flex-basis: 50%; 
+}
+.col-3 .offer-img{
+	padding: 25px;
+}
+.col-3 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.col-3 p {
+    font-size: 25.2px;
+}
+small{
+	color: #555;
+    font-size: 20.2px;
+}
+
+
 
