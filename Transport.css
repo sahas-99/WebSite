@@ -55,6 +55,29 @@ div.T3{
 	height: 230px;
 }
 
+.listing-item-details{
+	font-size: 17px;
+	font-family: sans-serif;
+	background-color: #FFFB6E;
+	width: 205px;
+	height:60px;
+	float: right;
+	border: 2px solid black;
+}
+
+.price {
+    color: orange;
+    font-size: 22px !important;
+    margin: 0px 1px 0px 0px !important;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color:black;
+}
+
+
+
+
+
+
 
 
 
