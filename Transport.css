@@ -35,3 +35,27 @@ div.T3{
 	border-spacing: 20px;
 }
 
+.text {
+    color: #EDFF00FF;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.6658334375em;
+    margin-bottom: 0.8441720333em;
+    font-family: sans-serif;
+    font-weight: 500;
+    -webkit-text-stroke-width:1.5px;
+    -webkit-text-stroke-color:black;
+    
+}
+
+.profile-image{
+	width: 260px;
+	height: 230px;
+}
+
+
+
+
+
