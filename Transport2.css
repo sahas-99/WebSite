@@ -3,3 +3,29 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
+
+body {
+    background-color: #FFFCBB;
+    font: 400 0.9375em/1.5 sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	background-color: #FFFCBB;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img-circle.center-cropped {
+    width: 150px;
+    height: 150px;
+}
+
+
+
