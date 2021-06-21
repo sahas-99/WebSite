@@ -73,6 +73,28 @@ div.T3{
     -webkit-text-stroke-color:black;
 }
 
+.price-currency {
+    color: orange!important;
+    font-weight: 900!impoartant;
+    font-size: 30px;
+    margin: 5px 5px 0px 0px;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color:black;
+}
+
+.price-currency {
+    font-size: 22px!important;
+    margin: 10px 2px 0px 2px !important;
+    
+}
+
+.price-top{
+    font-size: 18px;
+}
+
+
+
+
 
 
 
