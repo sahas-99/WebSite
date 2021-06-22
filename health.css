@@ -6,11 +6,13 @@
 body{
 	background:linear-gradient(#ffffff,#e7fdfb,#ffffff);
 }
+/*Header*/
 .gfback{
 	display: flex;
 	background: #b8faf2;
 	
 }
+/*Hospital icon*/
 .gf{
 	width: 70px;
 	height: 80px;
@@ -33,11 +35,13 @@ body{
     opacity: 1;
   }
 }
+/*Header dog image*/
 .doggie{
 	height: 199px;
 	position:absolute;
 	margin-left: 60%;
 }
+/*Main topic*/
 .hd 
 {
 	font-family: "showcard gothic";
@@ -69,9 +73,9 @@ body{
   100%
   {
      transform: translateX(0px);
-    opacity: 1;
-  }
+    opacity: Appointment
 }
+/*Appointment*/
 .nevi{
 	list-style-type:none;
 	background-color:#0dbfaa;
@@ -122,6 +126,7 @@ body{
 	padding-bottom: 10%;
 
 }
+	/*Address block*/
 .row{
     display: flex;
     justify-content: center;
@@ -196,6 +201,10 @@ body{
     z-index: 2;
     color: #333;
     transition: 0.5s;
+}
+.container .grid:hover h3[class="titletext"],
+.container .grid:hover p[class="text"]{
+    color: rgb(5, 57, 73);
 }
 
 
