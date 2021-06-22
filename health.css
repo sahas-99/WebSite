@@ -206,5 +206,21 @@ body{
 .container .grid:hover p[class="text"]{
     color: rgb(5, 57, 73);
 }
+.titlebtn{
+	display: block;
+	width: 120px;
+	background:#0ebea9;
+	color: #075f55;
+	font-size: 15px;
+	border:none;
+	padding: 8px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 0.2s;
+	letter-spacing: 1px;
+	margin-top: 13px;
+	
+}
 
 
