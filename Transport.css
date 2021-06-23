@@ -113,6 +113,28 @@ p.box-title {
 	color: black;
 }
 
+.button{
+	text-align: center;
+	color: black;
+	background-color: orange;
+	font-size: 20px;
+	margin: 4px 2px;
+	cursor: pointer;
+	padding: 14px 30px;
+
+}
+
+.container{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+
+
+
 
 
 
