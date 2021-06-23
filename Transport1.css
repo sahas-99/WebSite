@@ -126,6 +126,23 @@ h3, .gamma {
     margin-bottom: 1.1252813203em;
 }
 
+.gamma-container {
+    height: 50px;
+}
+
+.gamma-gallery:before, .gamma-gallery:after {
+    content: " ";
+    display: table;
+}
+
+.gamma-gallery {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: relative;
+}
+
 
 
 
