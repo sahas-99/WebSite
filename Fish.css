@@ -1,0 +1,91 @@
+/* Fish Category*/
+body{
+    font-family: 'Itim', cursive; 
+    background-color: #a6cbe9;          
+    
+ }
+
+.header4 {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(https://th.bing.com/th/id/R91db50e1c3db25b853b759c73547c78c?rik=mC%2faRcPkIuNSAA&pid=ImgRaw);
+    background-position: center;
+    background-size: cover;
+}
+.header .nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .header .nav-links{
+       flex: 1;
+       text-align: right;
+   }
+   .header .nav-links ul li{
+       list-style: none;
+       display: inline-block;
+       padding: 8px 12px;
+       position: relative;
+   }
+   .header .nav-links ul li a{
+       color: #fff;
+       text-decoration: none;
+       font-size: 25px;
+   }
+   .header .nav-links ul li::after{
+       content: '';
+       width: 0%;
+       height: 2px;
+       background: #43b3d9;
+       display: block;
+       margin: auto;
+       transition: 0.5s;
+   }
+   .header .nav-links ul li:hover::after{
+       width: 100%;
+   }
+   .text-box {
+       width: 90%;
+       color: #fff;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       text-align: center;
+   }
+   .text-box h1{
+       font-size: 62px;
+   }
+   .hero-btn{
+       display: inline-block;
+       text-decoration: none;
+       color: #fff;
+       border: 12px 34px;
+       font-size: 25px;
+       background: transparent;
+       position: relative;
+       cursor: pointer;
+   }
+   .hero-btn:hover{
+       border: 1px solid #43b3d9;
+       background: #43b3d9;
+       transition: 1s;
+   }
+   @media(max-width: 700px){
+       .text-box h1{
+           font-size: 20px;
+   }
+   .header .nav-links ul li{
+       display: block;
+   }
+   .header .nav-links{
+       position: absolute;
+       background: #085886;
+       height: 100vh;
+       width: 200px;
+       top: 0;
+       right: 0;
+       text-align: left;
+       z-index: 2;
+   }
