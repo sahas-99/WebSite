@@ -244,5 +244,13 @@ h3{
 	margin-top: 10%;
 	margin-bottom: 5%;
 }
+.team{
+	display: flex;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+	padding-top: 1%;
+	
+}
 
 
