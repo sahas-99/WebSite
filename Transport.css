@@ -132,6 +132,10 @@ p.box-title {
   height: 100px;
 }
 
+.text-right {
+    text-align: right!important;
+}
+
 
 
 
