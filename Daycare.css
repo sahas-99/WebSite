@@ -13,3 +13,27 @@ margin-right: 10px;
 
 }
 
+
+#tp{
+color: #ff1493;
+ 	font-family: "Forte";
+width: 400;
+font-size: 100px;
+-webkit-text-stroke-width: 8px;
+-webkit-text-stroke-color: black ;
+text-align: center;
+margin-top: -100px;
+
+}
+
+#pp{
+	color: #ff1493;
+	font-family: "Forte" ;
+	margin-left: 33px;
+	-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black ;
+font-size: 40px;
+}
+
+
+
