@@ -49,18 +49,43 @@ img {
 }
 
 .text{
-	font-size: 15px;
-	padding-left: 20px;
-	color: #EDFF00FF;
-	width: 100%;
+    font-size: 15px;
+    padding-left: 20px;
+    color: #EDFF00FF;
+    width: 100%;
     white-space: nowrap;
     overflow: hidden;
     font-family: sans-serif;
     font-weight: 500;
     -webkit-text-stroke-width:2px;
-	-webkit-text-stroke-color:black;
+    -webkit-text-stroke-color:black;
     
 }
+
+p.text1{
+	color: grey;
+	font-size: 18px;
+
+}
+
+p {
+    margin: 0 0 0.375em;
+    orphans: 3;
+    widows: 3;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+    -moz-font-feature-settings: "kern" 1;
+    -ms-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    -webkit-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+}
+
 
 
 
