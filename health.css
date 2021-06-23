@@ -232,5 +232,17 @@ h3{
 	font-family: 'Acme', sans-serif;
 
 }
+	
+.topic2 {
+	font-family: 'Itim', cursive;
+	font-size: 3.5rem;
+	font-weight: 500px;	
+	text-align: center;
+	letter-spacing: 5px;
+	color: #05473f;
+	text-shadow:  5px 3px 12px #61f3e1;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
 
 
