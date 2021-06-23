@@ -92,6 +92,30 @@ div.T3{
     font-size: 18px;
 }
 
+.listing-item-content h3 {
+    font-size: 13px;
+    line-height: 18px;
+}
+
+p.box-title {
+    color: blue!important;
+    width: 100%;
+    text-overflow: ellipsis;
+    font-size : 14px;
+    margin-bottom: 0.8441720333em;
+    font-family:sans-serif;
+    font-weight: 500;
+    margin: 0;
+    
+}
+
+.discrip{
+	color: black;
+}
+
+
+
+
 
 
 
