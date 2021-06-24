@@ -108,6 +108,25 @@ a:-webkit-any-link {
     text-decoration: underline;
 }
 
+h3 {
+    clear: both;
+}
+
+h3, .gamma {
+    font-size: 1.2496875em;
+    line-height: 1.200300075;
+    margin-bottom: 1.1252813203em;
+}
+
+.gamma-container {
+    height: 50px;
+}
+
+.gamma-gallery:before, .gamma-gallery:after {
+    content: " ";
+    display: table;
+}
+
 
 
 
