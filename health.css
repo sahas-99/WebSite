@@ -252,5 +252,16 @@ h3{
 	padding-top: 1%;
 	
 }
+.team .member{
+	background-color: #fff;
+	margin:30px;
+	margin-bottom: 50px;
+	width: 300px;
+	padding: 10px;
+	line-height: 20px;
+	color: #8e8b8b;
+	position: relative;
+
+}
 
 
