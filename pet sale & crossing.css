@@ -47,6 +47,95 @@ ul li.active a{
     font-size: 50px;
 	  -webkit-text-stroke-width:7px;
 	  -webkit-text-stroke-color:black;
-	  font-style: normal;
-   
+	  font-style: normal;  
+}
+h2{
+    margin-top: 10%;
+    text-align: center;
+    font-family: "showed Gothic";
+    width: 100%;
+    color: #D278F2;
+    font-size: 60px;
+    	-webkit-text-stroke-width: 5px;
+    	-webkit-text-stroke-color: #501266;
+}
+p{
+    top: 3%;
+    text-align: center;
+    font-weight: 300;
+    color: #7d10a5;
+    
+}
+.banner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://www.hornsby.nsw.gov.au/__data/assets/image/0017/123623/pet-registration.jpg);
+    background-size: cover;
+    width: 1200px;
+    left: 15%;
+    background-position: center;
+    height: 70vh;
+    
+}
+.banner .content{
+    max-width: 1000px;
+    text-align: center;
+}
+.banner .content h3{
+    font-size: 4rem;
+    color: #020003;
+}
+.banner .content h3:hover{
+    font-size: 5rem;
+}
+.banner .content p{
+    font-size: 2rem;
+    color: #040005;
+}
+.btn{
+    font-size: 30px;
+    color: #040005;
+    background: #b985cc;
+    display: inline-block;
+    padding: 10px 40px;
+    margin-top: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    
+}
+.btn:hover{
+    letter-spacing: 6px;
+}
+.banner1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://express-images.franklymedia.com/3922/2019/02/08125139/dog-love.jpg);
+    background-size: cover;
+    width: 1200px;
+    left: 15%;
+    background-position: center;
+    height: 70vh;
+    
+} 
+.banner1 .content{
+    max-width: 1000px;
+    text-align: center;
+}
+.banner1 .content h3{
+    font-size: 4rem;
+    color: #020003;
+}
+.banner1 .content h3:hover{
+    font-size: 5rem;
+}
+.banner1 .content p{
+    font-size: 2rem;
+    color: #040005;
+
 }
