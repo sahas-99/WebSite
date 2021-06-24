@@ -1,3 +1,4 @@
+
 *{
 	margin: 1px;
 	padding: 0px;
@@ -37,3 +38,254 @@ font-size: 40px;
 
 
 
+
+#wp{
+
+	color: black;
+	font-family: "Forte" ;
+	
+	-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #ff1493 ;
+font-size: 65px;
+background-color: #fd5da8;
+margin-top: -50px;
+border-style: solid;
+ border-color: deeppink;
+width: 600px;
+text-align: center;
+margin-left: 480px;
+position: absolute;
+
+}
+
+#wps{
+    color: black;
+    font-family: "Forte" ;
+    
+    -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #ff1493 ;
+font-size: 65px;
+background-color: #fd5da8;
+margin-top: -60px;
+border-style: solid;
+ border-color: deeppink;
+width: 800px;
+text-align: center;
+margin-left: 300px;
+position: absolute;
+
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    min-height: 90vh;
+margin-bottom: 20px;
+}
+
+
+
+
+.container{
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    display: flex;
+}
+
+.container .grid{
+    position: relative;
+    width: 320px;
+    background: white;
+    padding: 100px 40px 60px;
+    box-shadow: 0 15px 45px rgba(32, 44, 44, 0.1);
+
+}
+.container .grid:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f30172;
+    background-size: 350px 600px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+    opacity: 0.2;
+}
+.container .grid:hover:before{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+
+}
+.container .grid h2[class="title"]{
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black ;
+    position: absolute;
+    left: 40px;
+    top: 60px;
+    font-size: 3em;
+    font-weight: 800;
+    z-index: 1;
+    opacity: 0.1;
+    transition: 0.5s;
+}
+.container .grid:hover h2[class="title"]{
+    opacity: 1;
+    color: #fd0f7e;
+    transform:translateY(-50px);
+}
+.container .grid h3[class="titletext"]{
+	font-family: cursive;
+    position: relative;
+    z-index: 2;
+    color: #fd0f7e;
+    transition: 0.5s;
+    padding-top: 10px;
+}
+.container .grid p[class="text"]{
+	font-family: arial;
+	letter-spacing: 0.1rem;
+	line-height: 1.7;
+	color:#3d3d3d;
+    position: relative;
+    z-index: 2;
+    color: black;
+    transition: 0.5s;
+}
+.container .grid:hover h3[class="titletext"],
+.container .grid:hover p[class="text"]{
+    color: black;
+}
+
+
+.new{
+	display: inline;
+	width: 50%;
+}
+.back{
+	margin-top: 20%;
+
+}
+
+.arrow{
+margin-left: 1200px; 
+
+	color: #ff1493;
+	font-size:  20px;
+
+}
+
+
+
+
+.topnav {
+  background-color: #ff1493;
+  overflow: hidden;
+  margin-top: 200px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 16px 22px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Snap ITC;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+
+
+#hi{
+
+  padding-left: 550px;
+}
+
+.bk{
+    background-color: white;
+
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+#text{
+    font-family: Kristen ITC;
+    color: #ff0080;
+    font-size: 22px;
+    text-align: left;
+    margin-left: 580px;
+    margin-right: 10px;
+    width: 800px;
+margin-top: -300px;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black ;
+}
+
+#wep,#sp,#cp,#nwp,#ssp,#up,#ep,#ncp,#np{
+
+   border-style: solid;
+ border-color: deeppink;
+ padding-bottom: 20px;
+}
+#sp,#cp{
+    margin-top: 30px;
+
+}
+
+
+
+#ii,#ji,#ki,#mi,#ni,#oi,#pi,#qi{
+margin-left: 490px;
+
+
+}
+
+.angle-double-up{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background: white;
+    bottom: 50px;
+    right: 50px;
+    font-size:55px;
+    text-align: center;
+    border-radius: 60%;
+    color: deeppink;
+
+}
+
+.map{
+   margin-top: 25px;
+    border: solid; 
+    color: hotpink;
+    border-width: 6px;
+    margin-bottom: -2px;
+}
+
+#mptxt{
+    color: #ff1493;
+    font-family: "Forte" ;
+    margin-left: 33px;
+    -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black ;
+margin-top: 150px;
+margin-bottom: -165px;
+font-size: 35px;
+
+}
