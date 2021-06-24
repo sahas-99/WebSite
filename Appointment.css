@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Itim&family=Open+Sans&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Itim', cursive;
+  
+}
 body{
-	
+  background-image: url(https://www.pngkey.com/png/detail/399-3993780_about-vets-choice-d-vet-s.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
