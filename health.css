@@ -263,5 +263,10 @@ h3{
 	position: relative;
 
 }
+.team .member h3{
+	color: #0b8e7f;
+	font size: 26px;
+	margin-top: 100px;
+}
 
 
