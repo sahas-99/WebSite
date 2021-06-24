@@ -1,6 +1,6 @@
 *{
 	
-	background-color: #ffc0cb;
+	
    margin: 0px;
   padding: 0px;
 
@@ -43,11 +43,11 @@ font-size: 20px;
 ul {
   list-style-type: none;
   margin-top: 550px;
- margin-bottom: 1000px;
- padding-bottom: 1000px;
+ margin-bottom: 500px;
+ padding-bottom: 5000px;
   margin-left: 8px;
   overflow: hidden;
-  border: 1px solid #ff1493;
+  border: 5px solid #ff1493;
   background-color: white;
   margin-right: 8px;
 
@@ -66,27 +66,308 @@ li a {
 
   padding: 16px 70px;
   text-decoration: none;
-  font-size: 25px;
-  font-family: Apple Chancery, cursive;
+  font-size: 30px;
+  font-family: "forte";
 }
 
 li a:hover:not(.active) {
-  background-color: #ff1493;
+  background-color: white;
 }
 
 li a:not(.active){
-	background-color: white;
+	background-color: deeppink;
 	
 }
 
 li a.active {
-	color: white;
-	background-color:  #ffc0cb ;
+	color: deeppink;
+	background-color:  white ;
   
 }
 .img{
 
 	width: 110px;
 	height: 110px;
+
+}
+
+.day{
+  padding-bottom: 1000p;
+  margin-top: -1500px;
+  text-align: center;
+  color: #ff1493;
+  font-family: "Modern Love Grunge";
+
+font-size: 30px;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black ;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row{
+  background-color: white;
+      display: inline;
+    justify-content: center;
+    min-height: 90vh;
+margin-bottom: 20px;
+
+box-sizing: border-box;
+padding-left: 500px;
+
+
+
+}
+
+
+
+
+.container{
+    text-align: center;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    display: flex;
+    margin-left: 200px;
+    background-color: white;
+
+
+}
+
+.container .grid{
+  background-color: white;
+
+    position: relative;
+    width: 320px;
+    background: white;
+    padding left: 50px;
+    padding-right: 20px;
+    padding-top: 90px;
+    box-shadow: 0 15px 45px rgba(32, 44, 44, 0.1);
+    margin: 10px;
+
+}
+.container .grid:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:  #fd0f7e ;
+    background-size: 350px 600px;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+    opacity: 0.2;
+}
+.container .grid:hover:before{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+
+}
+.container .grid h2[class="title"]{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    -webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black ;
+    position: absolute;
+    left: 40px;
+    top: 60px;
+    font-size: 3em;
+    font-weight: 800;
+    z-index: 1;
+    opacity: 0.1;
+    transition: 0.5s;
+  }
+.container .grid:hover h2[class="title"]{
+    opacity: 1;
+    color: #fd0f7e;
+    transform:translateY(-50px);
+   }
+.container .grid h3[class="titletext"]{
+
+    font-family: cursive;
+    position: relative;
+    z-index: 2;
+    color: #fd0f7e;
+    transition: 0.5s;
+    padding-top: 10px;
+    padding-left: 20px;
+   padding-bottom: 10px;
+}
+.container .grid p[class="text"]{
+    font-family: arial;
+    letter-spacing: 0.1rem;
+    line-height: 1.7;
+    color:#3d3d3d;
+    position: relative;
+    z-index: 2;
+    color: black;
+    transition: 0.5s;
+    padding-left: 20px;
+    margin-top: -20px;
+  padding-bottom: 30px;
+
+}
+.container .grid:hover h3[class="titletext"],
+.container .grid:hover p[class="text"]{
+    color: black;
+}
+
+
+
+
+.arrow{
+
+margin-left: 1230px; 
+
+    color: #ff1493;
+    font-size:  20px;
+   
+
+}
+
+
+
+
+
+
+
+#pg{
+background-color: white;
+   text-align: center;
+   padding-top: 50px;
+   margin-left: 23px;
+
+}
+.text{
+    padding-top: -30px;
+}
+
+#day{
+
+margin-left: 120px;
+margin-right: 400px;
+  
+
+  color: #fc46aa;
+  font-family: "Snap ITC";
+
+font-size: 70px;
+-webkit-text-stroke-width: 4px;
+-webkit-text-stroke-color: black ;
+text-align: center;
+margin-top: -70px;
+margin-bottom: -70px;
+
+
+}
+
+#cat{
+
+  margin-left: 200px;
+  margin-top: -5530px;
+ 
+}
+
+/*grooming*/
+#bunny{
+  margin-left: 200px;
+}
+#day2{
+   color: #fc46aa;
+  font-family: "Snap ITC";
+
+font-size: 70px;
+-webkit-text-stroke-width: 4px;
+-webkit-text-stroke-color: black ;
+text-align: center;
+margin-top: -110px;
+margin-right: 170px;
+margin-bottom: 5px;
+}
+
+/*boarding*/
+#dog{
+  margin-left: 200px;
+}
+#day3{
+   color: #fc46aa;
+  font-family: "Snap ITC";
+
+font-size: 75px;
+-webkit-text-stroke-width: 4px;
+-webkit-text-stroke-color: black ;
+text-align: center;
+margin-top: -90px;
+margin-right: 0px;
+
+}
+
+/*dog walking*/
+#dog2{
+  margin-left: 200px;
+}
+
+#day4{
+   color: #fc46aa;
+  font-family: "Snap ITC";
+
+font-size: 70px;
+-webkit-text-stroke-width: 4px;
+-webkit-text-stroke-color: black ;
+text-align: center;
+margin-top: -460px;
+margin-right: 0px;
+margin-bottom: 275px;
+}
+
+/*arrow*/
+.angle-double-up{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background: white;
+    bottom: 50px;
+    right: 50px;
+    font-size:55px;
+    text-align: center;
+    border-radius: 60%;
+    color: deeppink;
 
 }
