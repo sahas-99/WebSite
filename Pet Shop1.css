@@ -66,7 +66,27 @@ html{
 }
 .nav {
     padding: 1.6rem 0;
+   
 }
+
+.nav.fix-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: cornflowerblue;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+
+.nav.fix-nav .nav-link,
+.nav.fix-nav .logo,
+.nav.fix-nav .cart-icon,
+.nav.fix-nav .hamburger{
+    color: #fff;
+
+}
+
 
 .navigation{
     display: flex;
@@ -150,6 +170,7 @@ html{
         align-items: start;
         padding: 1rem 1.6rem;
     }
+
     .nav-link:link,
     .nav-link:visited {
         display: block;
@@ -176,6 +197,8 @@ html{
         background-color: rgba(0, 0, 0, 0.8);
     }
 }
+
+
 /* Hero */
 .header .hero-img {
     position: absolute;
@@ -211,7 +234,7 @@ html{
     }
     .btn{
         display: inline-block;
-        background:#00b38f;
+        background:#6c6ef5;
         color: #fff;
         padding: 8px 30px;
         margin: 30px 0;
@@ -224,9 +247,9 @@ html{
     .col-2{
         width: 100%;
         font-size: 20px
-    } 
-
- /* Categories */
+    }  
+    
+    /* Categories */
     .categories {
         width: 80%;
         margin: auto;
@@ -290,7 +313,7 @@ html{
         opacity: 1;
     }
 
-   /* Featured */
+    /* Featured */
 
     .title {
         margin: 4rem 0 7rem 0;
@@ -313,6 +336,7 @@ html{
         height: 0.4rem;
         z-index: 1;
     }
+
     /* Product */
     .product-center {
         display: grid;
@@ -431,5 +455,201 @@ small{
     font-size: 20.2px;
 }
 
+/* Brands */
+.brands-center {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 3rem;
+  }
+  
+  .brand {
+    height: 8rem;
+    width: 8rem;
+    margin: 0 auto;
+  }
+  
+  .brand img {
+    object-fit: contain;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .brands-center {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  /*  Footer  */
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Itim&family=Open+Sans&display=swap');
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+  footer{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:#001a4d;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff;
+  }
+  .footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  }
+  .footer-content h3{
+  font-size: 2rem;
+  font-weight: 800;
+  text-decoration: capitalize;
+  line-height: 3rem;
+  font-family: showcard gothic;
+  letter-spacing: 2px;
+  -webkit-text-stroke-width:1px;
+  -webkit-text-stroke-color:black;
+  }
+  .footer-content p{
+  max-width: 600px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  font-family: sans-serif;
+  }
+  .socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+  
+  
+  }
+  .socials li{
+  margin: 0 30px;
+  
+  }
+  .socials a{
+  text-decoration: none;
+  color: #fff;
+  
+  
+  }
+  .socials a i{
+  font-size: 1.1rem;
+  }
+  .socials a:hover i{
+  color: aqua;
+  }
+  .footer-bottom{
+  background: #001133;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+  }
+  .footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  }
+  .footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+  }
 
 
+
+  
+  /* Cart Items */
+.cart {
+    margin: 10rem auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .cart-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  th {
+    text-align: left;
+    padding: 0.5rem;
+    color: #fff;
+    background-color: #3982be;
+    font-weight: normal;
+    font-size: 1.5rem;
+  }
+  
+  td {
+    padding: 1rem 0.5rem;
+    font-size: 1.4rem;
+  }
+  
+  td input {
+    width: 5rem;
+    height: 3rem;
+    padding: 0.5rem;
+  }
+  
+  td a {
+    color: rgb(188, 84, 197);
+    font-size: 1.4rem;
+  }
+  
+  td img {
+    width: 8rem;
+    height: 8rem;
+    margin-right: 1rem;
+  }
+  
+  .total-price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    flex-direction: column;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+  }
+  
+  .total-price table {
+    border-top: 3px solid #7199bb;
+    width: 100%;
+    max-width: 35rem;
+  }
+  
+  td:last-child {
+    text-align: right;
+  }
+  
+  th:last-child {
+    text-align: right;
+  }
+  
+  @media only screen and (max-width: 567px) {
+    .cart-info p {
+      display: none;
+    }
+  }
+  /* See More*/
+  .next {
+    background-color: #030303;
+    color: white;
+    font-size: 25px;
+    float: right;  
+    
+  }
+
+  
+    
+ 
+
+    
