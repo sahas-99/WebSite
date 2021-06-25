@@ -288,5 +288,9 @@ p{
 	transform: translateX(-50%);
 	background:#fff;
 }
-
+.team .member .photo img{
+	width: 110px;
+	height: 140px;
+	border-radius:50%;
+}
 
