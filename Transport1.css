@@ -226,6 +226,27 @@ h1, .alpha, h2, .beta, h3, .gamma, h4, .delta, h5, .epsilon, h6, .zeta {
     font-feature-settings: "kern" 1, "liga" 1, "pnum" 1, "tnum" 0, "onum" 0, "lnum" 0, "dlig" 1;
 }
 
+.grid {
+    margin-left: -3em;
+}
+
+.grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -1.5em;
+}
+
+.items_left hr, .items_left h3 {
+    clear: both;
+}
+
+h3, .gamma {
+    font-size: 1.6658334375em;
+    line-height: 1.8009003376;
+    margin-bottom: 0.8441720333em;
+}
+
 
 
 
