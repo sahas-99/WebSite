@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+  <!-- Box icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" type="text/css" href="Web.css">
+  <title>Shopping Cart</title>
+</head>
+
+<body>
+        
+   
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="navigation container">
+      <div class="logo">
+        <h1>Pet Shop</h1>
+      </div>
+
+      <div class="menu">
+        <div class="top-nav">
+          <div class="logo">
+            <h1>Pet Shop</h1>
+          </div>
+          <div class="close">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+
+        <ul class="nav-list">
+            <li class="nav-item">
+              <a href="Web page-Pet Shop.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="Dog.html" class="nav-link">Dog</a>
+            </li>
+            <li class="nav-item">
+              <a href="Cat.html" class="nav-link scroll-link">Cat</a>
+            </li>
+            <li class="nav-item">
+              <a href="Bird.html" class="nav-link scroll-link">Bird</a>
+            </li>
+            <li class="nav-item">
+              <a href="Fish.html" class="nav-link scroll-link">Fish</a>
+            </li>
+            <li class="nav-item">
+                <a href="Small Animals.html" class="nav-link scroll-link">Small Animals</a>
+              </li>
+            <li class="nav-item">
+              <a href="cart.html" class="nav-link icon"><i class="bx bx-shopping-bag"></i></a>
+            </li>
+          </ul>
+      </div>
+
+      <a href="cart.html" class="cart-icon">
+        <i class="bx bx-shopping-bag"></i>
+      </a>
+
+      <div class="hamburger">
+        <i class="bx bx-menu"></i>
+      </div>
+    </div>
+  </nav>
+  
+ 
+  <!-- Cart Items -->
+  <div class="container-md cart">
+    <table>
+      <tr>
+        <th>Products</th>
+        <th>Quantity</th>
+        <th>Subtotal</th>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="https://th.bing.com/th/id/OIP.D_s9AvXO4lulOCkjYFEyTwHaHa?pid=ImgDet&rs=1" alt="">
+            <div>
+              <p>Tooth Cleaning Toy Food Dispensing Dog Toy</p>
+              <span>Price: Rs.750</span>
+              <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>Rs.750</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmgY3FVZrj0g9s-5KQLqQDNGDRfzAkWfc6NQ&usqp=CAU" alt="">
+            <div>
+              <p>Adjustable Reflective Nylon Dog Collar</p>
+              <span>Price:Rs.1600</span>
+              <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>Rs.1600</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="https://th.bing.com/th/id/R3b61e67e2f0adf35056a89fadc14b849?rik=BW6OgLzzA3PhmQ&pid=ImgRaw" alt="">
+            <div>
+              <p>FEKRIX Water Bottle Blister Pack</p>
+              <span>Price: Rs.1200</span>
+              <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>Rs.1200</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="https://th.bing.com/th/id/R3f9577913a079bb7ed90189f4d2c5964?rik=VqtFYigZZRGTbA&pid=ImgRaw" alt="">
+            <div>
+              <p>Pet Soft And Comfy Padded Polyester Dog Collar</p>
+              <span>Price: Rs.950</span>
+              <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>Rs.950</td>
+      </tr>
+      <tr>
+        <td>
+          <div class="cart-info">
+            <img src="https://i.pinimg.com/originals/cd/b0/a9/cdb0a96f69a5294f20e7657d150e2880.jpg" alt="">
+            <div>
+              <p>Pet Hair Grooming Massage Bath Glove</p>
+              <span>Price: Rs.1750</span>
+              <br />
+              <a href="#">remove</a>
+            </div>
+          </div>
+        </td>
+        <td><input type="number" value="1" min="1"></td>
+        <td>Rs.1750</td>
+      </tr>
+    </table>
+
+    <div class="total-price">
+      <table>
+        <tr>
+          <td>Subtotal</td>
+          <td>Rs.6250</td>
+        </tr>
+        <tr>
+          <td>Delivery Charges</td>
+          <td>Rs.250</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>Rs.1250</td>
+        </tr>
+      </table>
+      <a href="#" class="checkout btn">Proceed To Checkout</a>
+
+    </div>
+
+  </div>
+
+   <!-------Footer------->
+   <footer class="footer">
+    <div class="footer-content">
+    <h3>Pet City</h3>
+    <p>Bound by an organizational culture - one that fosters respect and compassion to all animals and their human caretakers - PetCity sets itself apart from other many services in the country by treating your companion animals with the kind of care, love and kindness we show towards our own fur babies.</p>
+    
+    <ul class="socials">
+    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+    </ul>
+    </div>
+    <div class="footer-bottom">
+    <p>All Right reserved by &copy;petcity 2021</p>
+    </div>
+    </footer>
+<!-- End Footer -->
+  
+           <!--------GSAP-------->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+  
+  
+            <!--------Custom Script-------->
+            <script language="javascript" type="text/javascript" src="Web.js"></script>
+      </body>
+      </html>
+  
+  
