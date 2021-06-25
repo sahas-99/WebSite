@@ -3,6 +3,33 @@
     background-color: #a6cbe9;          
     
  }
+
+ h2,
+ h3,
+ h4 {
+     font-weight: 500;
+ }
+
+ a {
+     color: inherit;
+     text-decoration: none;
+ }
+
+ img{
+     max-width: 100%;
+ }
+ li {
+     list-style-type: none;
+ }
+ .container {
+     max-width: 120rem;
+     margin: 0 auto;
+ }
+ .container-md {
+    max-width: 100rem;
+    margin: 0 auto;
+}
+
  .header {
     min-height: 100vh;
     width: 100%;
@@ -72,8 +99,7 @@
      background: #43b3d9;
      transition: 1s;
  }
- 
- 
+  
  
  /* Dog Products */  
  .title {
@@ -187,3 +213,97 @@
     display: block;
     margin-bottom: 1rem;
 }
+
+/* See More*/
+.next {
+    background-color: #0b0c0c;
+    color: white;
+    font-size: 25px;
+    float: right;  
+  }
+
+  /*  Footer  */
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Itim&family=Open+Sans&display=swap');
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+  footer{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:#001a4d;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff;
+  }
+  .footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  }
+  .footer-content h3{
+  font-size: 2rem;
+  font-weight: 800;
+  text-decoration: capitalize;
+  line-height: 3rem;
+  font-family: showcard gothic;
+  letter-spacing: 2px;
+  -webkit-text-stroke-width:1px;
+  -webkit-text-stroke-color:black;
+  }
+  .footer-content p{
+  max-width: 600px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  font-family: sans-serif;
+  }
+  .socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+  
+  
+  }
+  .socials li{
+  margin: 0 30px;
+  
+  }
+  .socials a{
+  text-decoration: none;
+  color: #fff;
+  
+  
+  }
+  .socials a i{
+  font-size: 1.1rem;
+  }
+  .socials a:hover i{
+  color: aqua;
+  }
+  .footer-bottom{
+  background: #001133;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+  }
+  .footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  }
+  .footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+  }
+
+
