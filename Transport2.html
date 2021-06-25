@@ -71,6 +71,28 @@
 
    <p style="font: sans-serif; font-size: 16px; color: black;">
         &nbsp; &nbsp; &nbsp;Feeding, Walking, Bathing </p>
+	   
+    <script>
+                    $( function()
+{
+    var targets = $( '[rel~=tooltip]' ),
+        target  = false,
+        tooltip = false,
+        title   = false;
+ 
+    targets.bind( 'mouseenter', function()
+    {
+        target  = $( this );
+        tip     = target.attr( 'title' );
+        tooltip = $( '<div id="tooltip"></div>' );
+ 
+        if( !tip || tip == '' )
+            return false;
+ 
+        target.removeAttr( 'title' );
+        tooltip.css( 'opacity', 0 )
+               .html( tip )
+               .appendTo( 'body' );
 	
 	
 	
