@@ -293,4 +293,19 @@ p{
 	height: 140px;
 	border-radius:50%;
 }
+	.docbtn{
+	display: block;
+	width: 200px;
+	background:#0ebea9;
+	color: #075f55;
+	font-size: 20px;
+	border:none;
+	padding: 8px;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 10px;
+	transition: 0.2s;
+	letter-spacing: 1px;
+	margin-left: 45%;
+}
 
