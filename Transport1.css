@@ -300,6 +300,31 @@ h3, .gamma {
 .form-row .form-wrapper {
     margin-right: 25px;
 
+	.form-row .form-wrapper {
+    width: 50%;
+}
+.form-wrapper {
+    position: relative;
+}
+
+.form-wrapper span.lnr-calendar-full {
+    position: absolute;
+    left: 16px;
+    font-size: 15px;
+    color: #666;
+    top: 43px;
+}
+.lnr {
+    font-family: linearicons-free;
+    speak: none;
+    font-style: sans-serif;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 
 
 
