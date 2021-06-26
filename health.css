@@ -316,3 +316,15 @@ p{
 .docbtn:active{
 	background:#2aefd8;
 }
+.pawback{
+	display: flex;
+	margin: auto;
+	display: flex;
+
+}
+.back{
+	
+	width: 30%;
+	height: 30%;
+	margin-left: 65%;
+}
