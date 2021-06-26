@@ -328,6 +328,7 @@ p{
 	height: 30%;
 	margin-left: 65%;
 }
+	/*Form*/
 .contactform{
 	width: 30%;
 	padding: 20px;
@@ -338,4 +339,15 @@ p{
 	text-decoration: underline;
 	color: #05473f;
 	margin-bottom: 10%;
+}
+.contactform h2{
+	font-size: 30px;
+	font-weight: 500;
+	font-family: 'Acme', sans-serif;
+	
+}
+.contactform .inputbox{
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
 }
