@@ -328,3 +328,14 @@ p{
 	height: 30%;
 	margin-left: 65%;
 }
+.contactform{
+	width: 30%;
+	padding: 20px;
+	background: linear-gradient(#cbcfcf,#61f3e1,#b8faf2,#33cccc);
+	margin-left: 10%;
+	margin-top: 10%;
+	border-radius: 5%;
+	text-decoration: underline;
+	color: #05473f;
+	margin-bottom: 10%;
+}
