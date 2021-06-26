@@ -351,3 +351,14 @@ p{
 	width: 100%;
 	margin-top: 20px;
 }
+.contactform .inputbox input,.contactform .inputbox textarea{
+	width: 100%;
+	padding: 2px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 1px solid #333;
+	outline: none;
+	resize: none;
+
+}
