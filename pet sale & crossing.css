@@ -180,5 +180,51 @@ h2{
     font-size: 2rem;
     color: #040005;
 
-}		
+}
+/* Footer */
+footer{
+    background: #09000c;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #e3d4e9;
+    margin-top: 100px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 20px;
+}
+.socials a{
+    text-decoration: none;
+    color: #f5f2f7;
+
+}
+.socials a i{
+    font-size: 1.5rem;
+    transition: color .4s ease;
+}
+socials a:hover i{
+    color: #a78db1;
+}
+
 
