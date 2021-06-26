@@ -34,23 +34,76 @@ body{
 	-webkit-text-stroke-color:black;
 	font-style: normal;
 }
-		
+/* Categories */
+.categories {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.categories h1{
+    font-size: 3rem;
+}
+.row {
+    margin-top: 4%;        
+    display: flex;
+    justify-content: space-between;
+}
+.categories-col {
+    flex-basis: 42%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+    padding: 25px 15px;
+    box-sizing: border-box;
+
+}
+.categories-col img { 
+    object-fit: cover;       
+    width: 100%;
+    height: 100%;
+    display: block;
+}   
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+
+}
+.layer:hover {
+    background: rgba(219, 152, 233, 0.7);
+}
+.layer h3 {
+    width: 100%;
+    font-weight: 500;
+    color: rgb(15, 1, 15);
+    font-size: 1.5rem;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 0.5s;
+}
+.layer:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
+/* Pet sale*/
 h2{
-    margin-top: 10%;
+    margin-top: 8%;
     text-align: center;
     font-family: "showed Gothic";
     width: 100%;
     color: #D278F2;
-    font-size: 60px;
-    	-webkit-text-stroke-width: 5px;
-    	-webkit-text-stroke-color: #501266;
-}
-p{
-    top: 3%;
-    text-align: center;
-    font-weight: 300;
-    color: #7d10a5;
-    
+    font-size: 70px;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: #501266;
 }
 .banner{
     position: relative;
@@ -60,7 +113,7 @@ p{
     background: url(https://www.hornsby.nsw.gov.au/__data/assets/image/0017/123623/pet-registration.jpg);
     background-size: cover;
     width: 1200px;
-    left: 15%;
+    left: 12%;
     background-position: center;
     height: 70vh;
     
@@ -95,7 +148,10 @@ p{
 }
 .btn:hover{
     letter-spacing: 6px;
+
+
 }
+/* Pet crossing */
 .banner1{
     position: relative;
     display: flex;
@@ -104,7 +160,7 @@ p{
     background: url(https://express-images.franklymedia.com/3922/2019/02/08125139/dog-love.jpg);
     background-size: cover;
     width: 1200px;
-    left: 15%;
+    left: 12%;
     background-position: center;
     height: 70vh;
     
@@ -124,4 +180,5 @@ p{
     font-size: 2rem;
     color: #040005;
 
-}
+}		
+
