@@ -283,6 +283,23 @@ h3, .gamma {
     text-align: right!important;
 }
 
+.inner {
+    width: 800px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+    -webkit-box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+    -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+    -ms-box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+    -o-box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+    
+}
+
+.contact{
+    background-color:  #FFFCAC;
+}
+
+.form-row .form-wrapper {
+    margin-right: 25px;
+
 
 
 
