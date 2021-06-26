@@ -308,4 +308,11 @@ p{
 	letter-spacing: 1px;
 	margin-left: 45%;
 }
-
+.docbtn span{
+	margin-left: 5px;
+	transition: 0.2s;
+}
+.docbtn:hover,
+.docbtn:active{
+	background:#2aefd8;
+}
