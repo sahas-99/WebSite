@@ -360,6 +360,27 @@ input, textarea, select {
     color: rgba(0,0,0,0.54);
     font-size: 24px;
 }
+	
+.container-contact2-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 13px;
+}
+
+.wrap-contact2-form-btn {
+    display: block;
+    position: relative;
+    z-index: 1;
+    border-radius: 2px;
+    width: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
 
 
 
