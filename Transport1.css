@@ -325,6 +325,24 @@ h3, .gamma {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+	
+.form-control {
+    border: 1px solid #e6e6e6;
+    display: block;
+    width: 250px;
+    height: 40px;
+    padding: 0 16px;
+}
+
+input, textarea, select {
+    font-family: muli-regular;
+    font-size: 16px;
+    color: black;
+}
+
+[dir=ltr] .q-field__after, [dir=ltr] .q-field__append, [dir=rtl] .q-field__before, [dir=rtl] .q-field__prepend {
+    padding-left: 12px;
+}
 
 
 
