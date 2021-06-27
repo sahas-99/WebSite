@@ -384,3 +384,22 @@ p{
 	transform: translateY(-20px);
 
 }
+	.contactform .inputbox input[type="submit"]
+{
+	width: 100px;
+	background:#0b8e7f;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+	border: 1px solid #fff;
+	border-radius: 5%;
+}
+
+.contactform .inputbox input[type="submit"]:hover,
+.contactform .inputbox input[type="submit"]:active
+{
+	background-color: #10d5be;
+
+}
