@@ -47,5 +47,77 @@ body{
     color: #c5a2e7;
 }
 
+section{
+    min-height: 60vh;
+
+}
+/* Topic */
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.home .image{
+    flex: 1 1 40rem;
+}
+.home .image img{
+    width: 80%;
+    height: 75vh;
+    padding: 2%;
+    margin-left: 80px;
+}
+.home .image img:hover{
+    width: 90%;
+    height: 80vh;
+}
+.home .content h1{
+    margin-left: 130px;
+    margin-top: 0.2px;
+    text-align: center;
+    font-size: 70px;
+    font-family: "showcard Gothic";
+    color: #fdfbfd;
+	-webkit-text-stroke-width:5px;
+	-webkit-text-stroke-color: black;
+}
+.home .content span{
+    color: #ce81e7;
+}
+.home .content h3{
+    color: #060008;
+    font-size: 2rem;
+    
+}
+.home .content h3:hover{
+    font-size: 2.5rem;
+}
+.btn{
+    display: inline-block;
+    margin-top: 10%;
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    background: #bc8dce;
+    color: #09000c;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    font-size: 1rm;
+
+}
+.btn:hover{
+    background: #20022b;
+    color: #edd7f5;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 300px;
+    margin-top: 100px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #16011d;
+    text-shadow: 5px 3px 12px #0e0113;
+}
 
 
