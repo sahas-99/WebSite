@@ -403,3 +403,23 @@ p{
 	background-color: #10d5be;
 
 }
+.template{
+	width: 450px;
+	height: 300px;
+	margin-left: 60%;
+	margin-top: 50%;
+	border-radius: 2%;
+}
+.gotobtn{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background:#61f3e1;
+	bottom: 30px;
+	right: 40px;
+	font-size:45px;
+	text-align: center;
+	border-radius: 50%;
+	color: #fff;
+
+}
