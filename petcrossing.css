@@ -1,146 +1,51 @@
 *{
    margin: 0;
-    padding: 0;
+   padding: 0;
 }
 body{
-    background-color: #D278F2;
-}
-.hd{
-    background-image: url(https://moderndogmagazine.com/sites/default/files/images/articles/top_images/DogCareer.jpg);
-    background-size: cover;
-    height: 10px;
-    padding: 20%;
-    text-align: center;
-    font-size: 60px;
-    font-family: "showcard Gothic";
-    color: #D278F2;
-	-webkit-text-stroke-width:7px;
-	-webkit-text-stroke-color: black;
-}
-.hd:hover{
-    font-size: 4rem;
-}
-h2{
-    font-size: 3rem;
-    margin-top: 50px;
-    font-weight: 300px;
-
-    text-align: center;
-    letter-spacing: 2px;
-    color: #16011d;
-    text-shadow: 5px 3px 12px #0e0113;
-    
-}
-.container{
-    position: relative;
-    width: 1450px;
-    display: flex;
-    justify-content: center;
+    background-color: #e9d3ff;
     align-items: center;
-    flex-wrap: wrap;
-    padding: 30px;
 }
-.container .card{
-    position: relative;
-    max-width: 230px;
-    height: 200px;
-    background: #8c3ead;
-    margin: 30px 10px;
+/* sidebar */
+.wrapper{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
     display: flex;
-    flex-direction: column;
-    box-shadow: 0 5px 202px #350c44;
-    transition: 0.3s ease-in-out;
-}
-.container .card:hover{
-    height: 300px;
-    background: #d5aae4;
-}
-.container .card .imgBx{
     position: relative;
-    width: 200px;
-    height: 200;
-    top: 2px;
-    left: 20px;
-    box-shadow: 0 5px 10px #3d064e;
 
-}.container .card .imgBx img{
-    max-width: 100%;
-    border-radius: ;
 }
-.container .card .content{
-    position: relative;
-    margin-top: 10px;
-    padding: 5px 10px;
+.wrapper .sidebar{
+    position: fixed;
+    width: 90px;
+    height: 70%;
+    background: #c9b6cf;
+    padding: 30px 0;
+}
+.wrapper .sidebar h2{
+    color: #09010c;
+    text-transform: uppercase;
     text-align: center;
-    color: #190125;
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.3s ease-in-out;
+    margin-bottom: 30px;
 }
-.container .card:hover .content{
-    visibility: visible;
-    opacity: 1;
-    margin-top: 20px;
-    transition-delay: 0.3s;
+.wrapper .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1.5px solid #c9c1c9;
+    border-top: 1.5px solid #c634eb;
 }
-.column{
-    margin-top: 4%;
-    float: left;
-    padding: 20px 30px;
-    text-align: center;
-    width: 20%;
-    height: 100%;
+.wrapper .sidebar ul li a{
+    color: #f5f2f7;
     display: block;
 }
-.card{
-    padding: 40px;
-    padding-bottom: 50px;
-    background-color: #aa76b9;
-    color: black;
-    box-shadow: 0 3px 6px 0 #62147e;
+.wrapper .sidebar ul li a .fa{
+    width: 25px;
+}
+.wrapper .sidebar ul li:hover{
+    background: #68169e;
+}
+.wrapper .sidebar ul li:hover a{
+    color: #c5a2e7;
+}
 
-}
-img{
-    display: block;
-    width: 100%;
-    height: 100%;
-    opacity: 1;
-    object-fit: cover;
-    border-radius: 60%;
-    -webkit-transform: scale(0.8, 0.8);
-    transform: scale(0.8. 0.8);
-    -webkit-transform: all 1s ease;
-    transition: all 1s ease;
 
-}
-img:hover{
-    -webkit-transform: scale(1, 1);
-    transform: scale(1.5, 1);
-}
-.card:hover{
-    background-color: #ded4e2;
-    color: #190125;
-}
-@media screen and(min-width: 650px) {
-    .column{
-        width: 20%;
-        padding: 10px 20px;
-    }
-}
-.btn{
-    display: inline-block;
-    margin-top: 1%;
-    padding: 0.5rem 2rem;
-    border-radius: 2rem;
-    background: #b072c9;
-    color: #09000c;
-    overflow: hidden;
-    position: relative;
-    z-index: 0;
-    font-size: 1.5rm;
-    left: 45%;
-}
-.btn:hover{
-    background: #20022b;
-    color: #edd7f5;
-}
+
