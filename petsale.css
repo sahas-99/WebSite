@@ -157,3 +157,107 @@ h1{
     text-shadow: 5px 3px 12px #0e0113;
     
 }
+/* Pet Sale */
+.container{
+    position: relative;
+    width: 1200px;
+    margin-left: 140px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+}
+ .card{
+    position: relative;
+    width: 240px;
+    height: 250px;
+    display: flex;
+    padding: 1px;
+    flex-direction: column;
+    box-shadow: 0 5px 15px #350c44;
+    transition: 0.3s ease-out;
+}
+.card:hover{
+    height: 300px;
+    background: #d5aae4;
+}
+.card .imgbox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0 5px 10px #3d064e;
+
+}
+ .card .imgbox img{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 80%;
+     display: block;
+     transition: 0.5%;
+    
+}
+.card .content{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    padding: 12px;
+    background: #cfbad6;
+    color: #190125;
+    transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.card:hover .content{
+    width: 100%;
+    height: 85%;
+    left: 0;
+    bottom: 0;
+    background: #f8f7f8;
+
+}
+.content p{
+    margin: 5px 0 0;
+    padding: 2em 2em;
+    transform: translate(2em);
+    line-height: 1.3em;
+    transition: 0.3s;
+    text-align: justify;
+    opacity: 0;
+}
+.card:hover .content p{
+    transform: translate(0);
+    opacity: 1;
+    
+}
+h2{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.card:hover{
+    box-shadow: 0 0 5em #0d0011;
+}
+.btn{
+    display: inline-block;
+    margin-top: 7%;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    background: #fbf8fd;
+    color: #09000c;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    font-size: 1.5rm;
+    left: 45%;
+}
+.btn:hover{
+    background: #20022b;
+    color: #edd7f5;
+}
