@@ -3,21 +3,84 @@
    padding: 0;
 }
 body{
-    background-color: #e9d3ff;
+    background-color: #e9d3ff; 
+    font-family: 'Poppins';  
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+    color: #D278F2;
+}
+/* sidebar */
+.wrapper{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    position: relative;
+
+}
+.wrapper .sidebar{
+    position: fixed;
+    width: 115px;
+    height: 100%;
+    background: #dfcfe4;
+    padding: 5px 0;
+
+}
+.wrapper .sidebar h2{
+    color: #09010c;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.wrapper .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1.5px solid #2b052b;
+    border-top: 1.5px solid #220629;
+}
+.wrapper .sidebar ul li a{
+    color: #8d659b;
+    display: block;
+}
+.wrapper .sidebar ul li p{
+    color: #a78484;
+}
+
+.wrapper .sidebar ul li a .fa{
+    width: 25px;
+}
+.wrapper .sidebar ul li:hover{
+    background: #68169e;
+}
+.wrapper .sidebar ul li:hover a{
+    color: #ffffff;
+}
+/* Head image*/
+.hero{
+    background: linear-gradient(rgba(153, 135, 135, 0.4), rgba(168, 132, 132, 0.4)),url(https://cdn.ttgtmedia.com/visuals/ComputerWeekly/Hero%20Images/pets-cats-dogs-adobe-hero.jpg);
+    height: 60vh;
+    width: 100%;
+    margin-left: 100px;
+    background-position: center;
+    background-size: cover;
+}
+ .hero .content{
+    height: 130%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #d1ccd3;
     
 }
-.hd{
-    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-pet-simple-pink-banner-image_172322.jpg);
-    background-size: cover;
-    height: 10px;
-    padding: 13%;
-    text-align: center;
-    font-size: 60px;
+.hero .content h1{
+    font-size: 70px;
+    font-weight: 400;
     font-family: "showcard Gothic";
-    color: #D278F2;
-	    -webkit-text-stroke-width:7px;
-	    -webkit-text-stroke-color: black;
-}
-.hd:hover{
-    font-size: 4rem;
+    color: #cfa9dd;
+	-webkit-text-stroke-width:7px;
+	-webkit-text-stroke-color: black;
+
 }
