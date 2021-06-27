@@ -221,4 +221,91 @@ h2{
     color: #edd7f5;
 
 }
+/* From */
+.pawback{
+    background-image: url();
+	display: flex;
+    width: 100%;
+    margin-left: 70px;
+}
+.back{
+	width: 50%;
+	height: 65vh;
+	margin-top: 10%;
+	margin-left: 2%;
+	
+	
+}
+.contactform{
+	width: 30%;
+	padding: 40px;
+	background: linear-gradient(#c9c1c9,#b16bd1,#ad9db8,#9c33cc);
+	margin-left: 5%;
+	margin-top: 10%;
+	margin-bottom:10%;
+	border-radius: 5%;
+	text-decoration: underline;
+	color: #702288;
+}
+.contactform h2{
+	font-size: 30px;
+	font-weight: 500;
+	font-family: 'Acme', sans-serif;
+	
+}
+.contactform .inputbox{
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
+}
+.contactform .inputbox input,.contactform .inputbox textarea{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 1px solid rgb(29, 28, 29);
+	outline: none;
+	resize: none;
 
+}
+.contactform .inputbox span{
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	pointer-events: none;
+	transition: 0.5s;
+	color: #666;
+	
+}
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span
+{
+	color: #c634eb;
+	font-size: 12px;
+	transform: translateY(-20px);
+
+}
+.contactform .inputbox input[type="submit"]
+{
+	width: 100px;
+	background:#570570;
+	color: rgb(221, 206, 224);
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+	border: 1px solid rgb(206, 179, 212);
+	border-radius: 5%;
+}
+form{
+	justify-content: center;
+}
+.contactform .inputbox input[type="submit"]:hover,
+.contactform .inputbox input[type="submit"]:active{
+	background-color: #0d010f;
+}
