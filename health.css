@@ -373,3 +373,14 @@ p{
 	color: #666;
 	
 }
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span
+{
+
+	color: #e91e63;
+	font-size: 12px;
+	transform: translateY(-20px);
+
+}
