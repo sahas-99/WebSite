@@ -423,3 +423,24 @@ p{
 	color: #fff;
 
 }
+.slider{
+	width: 1200px;
+	height: 600px;
+	background: url(https://gdurl.com/Ibci);
+	margin: 80px auto;
+	animation: slide 35s infinite;
+}
+@keyframes slide{
+	25%{
+		background: url(https://gdurl.com/h6b3);
+	}
+	50%{
+		background: url(https://gdurl.com/KCH3);
+	}
+	75%{
+		background: url(https://gdurl.com/3G_HV);
+	}
+	100%{
+		background: url(https://gdurl.com/Ibci);
+	}
+}
