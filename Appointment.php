@@ -16,9 +16,39 @@
               <img class="pet" src="https://gdurl.com/N2RX">
         </div>
     </div>
-   </div<
-<?php
+    <div class="appointment">
+    <div class="fhead">Apointment Form</div>
+    <form>
+      
+      <div class="user-details">
+        <div class="input-box">
+          <span class="details">Pet Owner Name</span>
+          <input type="text" id="pname" placeholder="Enter Pet Owner Name" required="">
+        </div>
+        <div class="input-box">
+          <span class="details">Pet Owner Email</span>
+          <input type="text" name="email" placeholder="Enter Pet Owner Email" required value="<?php echo $userEmail?>">
+        </div>
+        <div class="input-box">
+          <span class="details">Pet Owner Phone</span>
+          <input type="text" id="pnumber" placeholder="Enter Pet Owner Phone" required="">
+        </div>
+        <div class="input-box">
+          <span class="details">Pet Name</span>
+          <input type="text" id="name" placeholder="Enter Pet Name" required="">
+        </div>
+        <div class="input-box">
+          <span class="details"> Pet Type</span>
+              <select>
+                <option>Dog</option>
+                <option>Cat</option>
+                <option>Bird</option>
+                <option>Other</option>
+              </select>
+          
+        </div>
+        </form>
+  </div>
 
-?>
 </body>
 </html>
