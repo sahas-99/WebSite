@@ -18,7 +18,21 @@
     </div>
     <div class="appointment">
     <div class="fhead">Apointment Form</div>
-    <form>
+    <form action="Appointment.php" method="POST">
+      <?php
+      $userEmail = "";
+      if (isset($_POST['book'])) {//if book submit click
+       $userEmail = $_POST['email'];//getting user email
+       if (filter_var($userEmail,FILTER_VALIDATE_EMAIL)) 
+        {
+           // validating user entered email
+          
+           $subject = "Thanks for get your vaterinary appointment";
+           $message = "Thank you for making a appointment with Pet City. ";
+           $sender = "From:petcity9899@gmail.com";//this is that email which I have put while configuring XAMPP folder
+           if (mail($userEmail, $subject, $message, $sender)) {
+             // php function to send mail
+            ?>
       
       <div class="user-details">
         <div class="input-box">
