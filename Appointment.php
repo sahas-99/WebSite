@@ -47,7 +47,65 @@
               </select>
           
         </div>
+         <div class="input-box">
+          <span class="details">Pet Breed</span>
+          <input type="text" id="breed" placeholder="Enter Pet Breed" required="">
+        </div>
+        <div class="input-box">
+          <span class="details">Pet Age</span>
+          <input type="text" id="age" placeholder="Enter Pet Age" required="">
+        </div>
+        <div class="input-box">
+          <span class="details">Select Pet Clinic</span>
+         <select>
+                <option>Select</option>
+                <option>City Pet Animal Hospital</option>
+                <option>Pets Place Animal Clinic</option>
+                <option>City Pet Hospital</option>
+                <option>Animal Veterinary Clinic</option>
+                <option>Best Care</option>
+                <option>Pet Rays Animal Clinic</option>
+                <option>Animal Clinic</option>
+                <option>CIS Care Pet Clinic</option>
+                <option>Kirillawala Animal Clinic</option>
+                
+              </select>
+        </div>
+        <div class="input-box">
+          <span class="details">Choose Date</span>
+          <input type="date" placeholder="" required="">
+        </div>
+         <div class="input-box">
+          <span class="details"> Choose Time</span>
+         
+              <select>
+                <option>Select</option>
+                <option>14.00</option>
+                <option>14.15</option>
+                <option>14.30</option>
+                <option>14.45</option>
+                <option>15.00</option>
+                <option>15.15</option>
+                <option>15.30</option>
+                <option>15.45</option>
+                <option>16.00</option>
+                <option>16.15</option>
+                <option>16.30</option>
+                <option>16.45</option>
+                <option>17.00</option>
+                <option>17.15</option>
+                <option>18.30</option>
+                <option>18.45</option>
+                <option>19.00</option>
+              </select>
+          
+        </div>
+        <div class="button">
+          <input type="submit" name="book" value="BOOK APPOINTMENT">
+        </div>
+      </div>
         </form>
+  </div>
   </div>
 
 </body>
