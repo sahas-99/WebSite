@@ -127,6 +127,33 @@ h3, .gamma {
     display: table;
 }
 
+.gamma-gallery {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    position: relative;
+}
+
+.gamma-description {
+    background: #fff;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+}
+
+
 
 
 
