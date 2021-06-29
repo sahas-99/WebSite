@@ -35,3 +35,41 @@ body{
   animation-delay: 0.2s;
   opacity: 0;
 }
+@keyframes slide_left
+{
+  0%
+  {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100%
+  {
+     transform: translateX(0px);
+    opacity: 1;
+  }
+}
+.layer .topic{
+  font-size: 20px;
+  margin-top: 10px;
+}
+.pet{
+  width: 45%;
+  height: 35%;
+  margin-left: 5%;
+   animation: slide_top 0.5s linear forwards;
+  animation-delay: 0.2s;
+  opacity: 0;
+}
+@keyframes slide_top
+{
+  0%
+  {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100%
+  {
+     transform: translateX(0px);
+    opacity: 1;
+  }
+}
