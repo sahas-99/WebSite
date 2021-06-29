@@ -479,6 +479,35 @@ input, textarea, select {
     transition: all 0.4s;
 }
 
+.contact2-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 130px;
+    height: 45px;
+    font-family: Poppins-Medium;
+    font-size: 23px;
+    color: #fff;
+    line-height: 1.2;
+    cursor: pointer;
+}
+button {
+    outline: none !important;
+    border: 1;
+    background: transparent;
+}
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+
 
 
 
