@@ -93,3 +93,18 @@ body{
     opacity: 1;
   }
 }
+.appointment .fhead{
+  font-size: 29px;
+  font-weight: 800;
+  position: relative;
+  color: #cffcf7;
+  background-color: rgba(0, 0, 0, 0.3);
+ padding: 5px 20px;
+
+}
+.appointment form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+   margin: 20px 0 12px 0;
+}
