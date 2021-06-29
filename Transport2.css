@@ -153,6 +153,31 @@ h3, .gamma {
     transition: opacity 0.4s ease-in-out;
 }
 
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul {
+    list-style-position: outside;
+}
+
+element.style {
+    width: 33.2248%;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.gamma-gallery li {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    float: left;
+    padding: 4px;
+}
+
 
 
 
