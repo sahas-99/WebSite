@@ -321,6 +321,53 @@ element.style {
     top: -100000px;
 }
 
+button {
+    appearance: auto;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+style attribute {
+    position: absolute;
+    height: 350px;
+    width: 250px;
+    cursor: url(https://maps.gstatic.com/mapfiles/openhand_8_8.cur), default;
+    touch-action: pan-x pan-y;
+}
+
+.text-right {
+    text-align: right!important;
+}
+
+.inner {
+    width: 800px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+    -webkit-box-shadow: 0 0 10px 0 rgb(0 0 0 / 20%);
+    -moz-box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+    -ms-box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+    -o-box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
+    
+}
+
 
 
 
