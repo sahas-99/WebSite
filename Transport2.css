@@ -416,6 +416,26 @@ input, textarea, select {
     color: black;
 }
 
+[dir=ltr] .q-field__after, [dir=ltr] .q-field__append, [dir=rtl] .q-field__before, [dir=rtl] .q-field__prepend {
+    padding-left: 12px;
+}
+.flex-center, .items-center {
+    align-items: center;
+}
+.no-wrap {
+    flex-wrap: nowrap;
+}
+.column, .flex, .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.q-field__marginal {
+    height: 56px;
+    color: rgba(0,0,0,0.54);
+    font-size: 24px;
+}
+
 
 
 
