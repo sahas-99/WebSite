@@ -73,3 +73,23 @@ body{
     opacity: 1;
   }
 }
+.appointment{
+  max-width: 600px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 25px 30px;
+  border-radius: 15px 15px 0px 0px;
+  margin: auto;
+  animation: fade_in 1s linear forwards;
+  animation-delay: 0.1s;
+}
+@keyframes fade_in
+{
+  0%
+  {
+    opacity: 0;
+  }
+  100%
+  {
+    opacity: 1;
+  }
+}
