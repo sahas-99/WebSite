@@ -299,6 +299,28 @@ hr {
     border-width: 1px;
 }
 
+#mapDiv {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.gm-style {
+    font: 400 11px Roboto, Arial, sans-serif;
+    text-decoration: none;
+}
+
+element.style {
+    z-index: 1000002;
+    cursor: pointer;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+    left: -100000px;
+    top: -100000px;
+}
+
 
 
 
