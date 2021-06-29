@@ -368,6 +368,28 @@ style attribute {
     
 }
 
+.contact{
+    background-color:  #FFFCAC;
+}
+
+.form-row .form-wrapper:first-child {
+    margin-right: 25px;
+}
+.form-row .form-wrapper {
+    width: 50%;
+}
+.form-wrapper {
+    position: relative;
+}
+
+.form-wrapper span.lnr-calendar-full {
+    position: absolute;
+    left: 16px;
+    font-size: 15px;
+    color: #666;
+    top: 43px;
+}
+
 
 
 
