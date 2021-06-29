@@ -276,6 +276,29 @@ element.style {
     margin-right: 10px;
 }
 
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
+}
+
+.items_left hr, .items_left h3 {
+    clear: both;
+}
+
+hr {
+    background: gainsboro;
+    border: 0;
+    height: 1px;
+    line-height: 1.6;
+    margin: 1.5em 0;
+}
+
+hr {
+    border-style: inset;
+    border-width: 1px;
+}
+
 
 
 
