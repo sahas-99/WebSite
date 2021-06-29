@@ -239,6 +239,27 @@ h3, .gamma {
     margin-bottom: 0.8441720333em;
 }
 
+.one-half, .two-quarters, .three-sixths, .four-eighths, .five-tenths, .six-twelfths {
+    width: 50%;
+}
+
+.col {
+    padding-left: 3em;
+}
+
+.one-whole {
+    width: 100%;
+}
+
+.col {
+    display: inline-block;
+    margin-right: -.25em;
+    padding-left: 1.5em;
+    vertical-align: top;
+    width: 100%;
+}
+
+
 
 
 
