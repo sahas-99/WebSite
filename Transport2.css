@@ -259,6 +259,23 @@ h3, .gamma {
     width: 100%;
 }
 
+.md-two-thirds, .md-four-sixths, .md-eight-twelfths, [role="main"].col {
+    width: 1200px;
+}
+
+.one-fifth, .two-tenths {
+    width: 10%;
+}
+
+.md-one-half, .md-two-quarters, .md-three-sixths, .md-four-eighths, .md-five-tenths, .md-six-twelfths {
+    width: 50%;
+}
+
+element.style {
+    width: 20px;
+    margin-right: 10px;
+}
+
 
 
 
