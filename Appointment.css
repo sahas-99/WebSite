@@ -158,3 +158,18 @@ form .button input{
 form .button input:hover{
   background-color: #0fd7bf;
 }
+.alert{
+  margin: 20px 0 12px 0;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 20rem;
+ }
+  
+
+.alert.error{
+   color:  #e60000;
+  background-color:  #ff9999;
+  border: 1px solid #f5c6cb;
+
+}
