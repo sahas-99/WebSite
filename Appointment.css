@@ -173,3 +173,33 @@ form .button input:hover{
   border: 1px solid #f5c6cb;
 
 }
+.alert.success{
+   color:#006622;
+  background-color: #66ff99;
+  border: 1px solid #c3e6cb;
+ }
+
+
+@media (max-width: 584px){
+  .appointment{
+  max-width: 100%;
+}
+form .user-details .input-box{
+ margin-bottom: 10px;
+  width: 100%;
+  }
+  .appointment form .user-details{
+    max-height: 200px;
+    overflow-y: scroll;
+  }
+  .user-details::-webkit-scrollbar{
+    width: 0;
+  }
+  body{
+    max-width: 100%;
+  }
+  body .layer{
+    max-width: 100%;
+  }
+
+}
