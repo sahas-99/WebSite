@@ -142,3 +142,19 @@ form .button{
   margin: auto;
   
 }
+form .button input{
+  background-color:#0ca694;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 10rem;
+  letter-spacing: 1px;
+  border: none;
+  padding: 10px;
+  color: #fff;
+}
+form .button input:hover{
+  background-color: #0fd7bf;
+}
