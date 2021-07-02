@@ -131,6 +131,35 @@ olor: #fff;
     font-family: arial;
     background-color: white;
 }
+
+.btn{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font size: 2rem;
+    text-align: center;
+    color: #33663ff;
+    background-color: yellow;
+    border: none;
+    border-radius: 0.4rem;
+    transition: 0.2s;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+     
+.btn a{
+        text-decoration: none;
+}
+    
+.btn span{
+    margin-left: 1rem;
+    transition: 0.2s;
+}
+    
+.btn:hover,
+    .btn:active{
+    background-color:;
+}
  
 
 
