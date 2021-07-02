@@ -209,6 +209,61 @@ footer{
   -webkit-text-stroke-width:1px;
   -webkit-text-stroke-color:black;
 }
+
+.footer-content p{
+  max-width: 600px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+  
+}
+  
+.socials li{
+  margin: 0 30px;
+}
+  
+.socials a{
+  text-decoration: none;
+  color: #fff;
+ }
+
+.socials a i{
+  font-size: 1.1rem;
+}
+  
+.socials a:hover i{
+  color: aqua;
+}
+  
+.footer-bottom{
+  background: #001133;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+  
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+  
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+
+
  
 
 
