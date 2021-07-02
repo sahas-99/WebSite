@@ -1,5 +1,21 @@
-body{
-	background-color: #FCF4A3;
+#container{
+width: 1900;
+height: 1000;
+}
+#header{
+width: 1900;
+height: 200;
+background: #AABBFF
+}
+#left{
+width: 200;
+height: 750;
+background: #00AA55
+}
+#right{
+width: 200;
+height: 750;
+background: #00AAFF
 }
 
 h1.TS{
