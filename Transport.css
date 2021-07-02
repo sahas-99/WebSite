@@ -49,6 +49,32 @@ small{
     color: #555;
     font-size: 20.2px;
 }
+
+olor: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px; 
+    transition: background 0.5s;
+}
+
+.btn1 a{
+    text-decoration: none;
+}
+
+.btn1:hover{
+    background: #563434;
+}
+   
+.row{
+    display: flex;
+    width: 100%;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,5fr));
+    align-items: start;
+    padding-top: 90px;
+    padding-left: 150px;
+    padding-right: 80px;
+}
  
 
 
