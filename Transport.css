@@ -179,6 +179,36 @@ olor: #fff;
     padding: 0;
     box-sizing: border-box;
   }
+
+footer{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:#001a4d;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff;
+}
+  
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+  
+.footer-content h3{
+  font-size: 2rem;
+  font-weight: 800;
+  text-decoration: capitalize;
+  line-height: 3rem;
+  font-family: showcard gothic;
+  letter-spacing: 2px;
+  -webkit-text-stroke-width:1px;
+  -webkit-text-stroke-color:black;
+}
  
 
 
