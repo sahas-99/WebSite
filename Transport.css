@@ -1,12 +1,14 @@
 *{
     background-color: #ffff4d;
-     }
-    .body{
+}
+    
+.body{
     margin-left: 40px;
     margin-top: 20px;
     margin-right: 32px;
-     }
-       #pp{
+}
+      
+#pp{
     color:  #ffcc00;
     font-family: "showcard Gothic";
     
@@ -15,13 +17,39 @@
     -webkit-text-stroke-color: black ;
     text-align: center;
     margin-top: -110px;
-    }
- .text1{
+}
+ 
+.text1{
  
     margin-top: 80px;
     padding: 30px o;
     
 }
+
+.col-3{
+    width: 100%;
+    flex-basis: 50%; 
+}
+
+.col-3 .text1-img{
+    padding: 25px;
+}
+
+.col-3 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.col-3 p {
+    font-size: 25.2px;
+}
+
+small{
+    color: #555;
+    font-size: 20.2px;
+}
+ 
 
 
 
