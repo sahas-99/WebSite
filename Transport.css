@@ -18,6 +18,28 @@ height: 750;
 background: #00AAFF
 }
 
+#footer{
+width: 1000;
+height: 50;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    display: inline;
+}
+
+*{    
+	background-color: #ffff4d;        
+}    
+
+.body{    
+	margin-left: 40px;    
+	margin-top: 20px;    
+	margin-right: 32px;        
+}        
+
+
 h1.TS{
 	color: #EDFF00FF;
 	font-family: showcard gothic;
