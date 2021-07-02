@@ -160,6 +160,25 @@ olor: #fff;
     .btn:active{
     background-color:;
 }
+
+.btn:active span{
+    margin-left: 1.5rem;
+}
+    
+.icon{
+    text-align: left;
+    width: 40px;
+    height: 30px;
+    
+}
+    
+ /*  Footer  */
+  @import url('https://fonts.googleapis.com/css2?family=Acme&family=Itim&family=Open+Sans&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
  
 
 
