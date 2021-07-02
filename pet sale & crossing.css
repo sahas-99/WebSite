@@ -77,13 +77,17 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(https://www.hornsby.nsw.gov.au/__data/assets/image/0017/123623/pet-registration.jpg);
+    background:linear-gradient(rgba(211, 189, 189, 0.4), rgba(148, 78, 78, 0.4)), url(https://www.hornsby.nsw.gov.au/__data/assets/image/0017/123623/pet-registration.jpg);
     background-size: cover;
     width: 1200px;
     left: 12%;
     background-position: center;
     height: 70vh;
     
+}
+.banner:hover{
+    width: 1260px;
+    height: 80vh;
 }
 .banner .content{
     max-width: 1000px;
@@ -124,14 +128,18 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(https://express-images.franklymedia.com/3922/2019/02/08125139/dog-love.jpg);
+    background:linear-gradient(rgba(216, 192, 192, 0.4), rgba(151, 89, 89, 0.4)), url(https://express-images.franklymedia.com/3922/2019/02/08125139/dog-love.jpg);
     background-size: cover;
     width: 1200px;
     left: 12%;
     background-position: center;
     height: 70vh;
     
-} 
+}
+.banner1:hover{
+    width: 1260px;
+    height: 80vh;
+}
 .banner1 .content{
     max-width: 1000px;
     text-align: center;
