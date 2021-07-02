@@ -37,7 +37,35 @@ ul li{
 	margin-left: 40px;    
 	margin-top: 20px;    
 	margin-right: 32px;        
-}        
+}    
+
+#pp{    
+	color:  #ffcc00;    
+	font-family: "showcard Gothic";        
+	font-size: 100px;    
+	-webkit-text-stroke-width: 7px;    
+	-webkit-text-stroke-color: black ;    
+	text-align: center;    
+	margin-top: -110px;            
+}                        
+.row{    
+	display: flex;;    
+	width: 80%;    
+	grid-gap: 40px;    
+	grid-template-columns: repeat(auto-fit,minmax(30rem,5fr));    
+	align-items: start;    
+	padding-top: 90px;    
+	padding-left: 150px;    
+	padding-right: 80px;            
+	}    
+
+.grid{    
+	background-color: white;    
+	border-radius: 0.4rem;    
+	overflow: hidden;    
+	box-shadow: 0 3rem 6rem rgba(0,0,0,0.1);    
+	transition: 0.2s;    
+	}    
 
 
 h1.TS{
