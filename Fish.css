@@ -234,7 +234,7 @@ body{
   bottom: 0;
   left: 0;
   right: 0;
-  background:#001a4d;
+  background:black;
   height: auto;
   width: 100vw;
   padding-top: 40px;
@@ -270,18 +270,14 @@ body{
   align-items: center;
   justify-content: center;
   margin: 1rem 0 3rem 0;
-  
-  
   }
   .socials li{
   margin: 0 30px;
-  
-  }
+   }
   .socials a{
   text-decoration: none;
   color: #fff;
-  
-  
+ 
   }
   .socials a i{
   font-size: 1.1rem;
@@ -290,7 +286,7 @@ body{
   color: aqua;
   }
   .footer-bottom{
-  background: #001133;
+  background: #262626;
   width: 100vw;
   padding: 20px 0;
   text-align: center;
