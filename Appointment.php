@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>Vet Appointment</title>
   <link rel="stylesheet" type="text/css" href="Appointment.css">
 </head>
 <body>
