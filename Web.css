@@ -215,7 +215,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-pet-simple-white-banner-image_171910.jpg);
+    background: url("Images/Image 2.jpg");
     background-size: cover;
 }
 
@@ -492,7 +492,7 @@ small{
   right: 0;
   background:black;
   height: auto;
-  width: 100vw;
+  width:  100vw;
   padding-top: 40px;
   color: #fff;
   }
@@ -526,14 +526,18 @@ small{
   align-items: center;
   justify-content: center;
   margin: 1rem 0 3rem 0;
+  
+  
   }
   .socials li{
   margin: 0 30px;
-   }
+  
+  }
   .socials a{
   text-decoration: none;
   color: #fff;
- 
+  
+  
   }
   .socials a i{
   font-size: 1.1rem;
@@ -557,6 +561,8 @@ small{
   opacity: .4;
   font-weight: 200;
   }
+
+
 
   
   /* Cart Items */
