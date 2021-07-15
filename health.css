@@ -197,10 +197,10 @@ body{
 	letter-spacing: 0.1rem;
 	line-height: 1.7;
 	color:#3d3d3d;
-    position: relative;
-    z-index: 2;
-    color: #333;
-    transition: 0.5s;
+   	position: relative;
+    	z-index: 2;
+    	color: #333;
+    	transition: 0.5s;
 }
 .container .grid:hover h3[class="titletext"],
 .container .grid:hover p[class="text"]{
@@ -274,7 +274,7 @@ h3{
 	margin: 5px 0;
 	text-transform: uppercase;
 }
-p{
+.team .member p{
 	font-family: 'Acme', sans-serif;
 	padding-top: 20px;
 }
@@ -293,7 +293,7 @@ p{
 	height: 140px;
 	border-radius:50%;
 }
-	.docbtn{
+.docbtn{
 	display: block;
 	width: 200px;
 	background:#0ebea9;
@@ -445,7 +445,7 @@ p{
 	}
 }
 	
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Itim&family=Open+Sans&display=swap');
+
   *{
   margin: 0;
   padding: 0;
