@@ -33,7 +33,7 @@ body{
  .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url(https://images.wallpaperscraft.com/image/cat_wild_brown_140132_3840x2160.jpg);
+    background-image: url("Images/Image 35.jpg");
     background-position: center;
     background-size: cover;
    
@@ -220,7 +220,7 @@ body{
     float: right;  
   }
 
- /*  Footer  */
+  /*  Footer  */
   @import url('https://fonts.googleapis.com/css2?family=Acme&family=Itim&family=Open+Sans&display=swap');
   *{
   margin: 0;
@@ -268,14 +268,18 @@ body{
   align-items: center;
   justify-content: center;
   margin: 1rem 0 3rem 0;
+  
+  
   }
   .socials li{
   margin: 0 30px;
-   }
+  
+  }
   .socials a{
   text-decoration: none;
   color: #fff;
- 
+  
+  
   }
   .socials a i{
   font-size: 1.1rem;
@@ -299,3 +303,5 @@ body{
   opacity: .4;
   font-weight: 200;
   }
+
+
