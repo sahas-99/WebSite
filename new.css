@@ -18,3 +18,56 @@ body {
     display: flex;
     align-items: center;
 }
+.container .text{
+    position: relative;
+    max-width: 400px;
+    margin-left: 60%;
+}
+.container .text h1{
+    color:black;
+    font-size: 3em;
+    line-height: 1.4em;
+    font-weight: 700;
+    margin-top: 10%;
+    font-family: amuse-bouche;
+    text-shadow:  5px 3px 12px #61f3e1;
+    animation: slide_top 0.5s linear forwards;
+  animation-delay: 0.2s;
+  opacity: 0;
+}
+@keyframes slide_top
+{
+  0%
+  {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100%
+  {
+     transform: translateX(0px);
+    opacity: 1;
+  }
+}
+.container .text h2{
+    color:black;
+    font-size: 1em;
+    line-height: 1.6em;
+    font-weight: 500;
+animation: slide_right 0.5s linear forwards;
+  animation-delay: 0.2s;
+  opacity: 0;
+}
+@keyframes slide_right
+{
+  0%
+  {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100%
+  {
+     transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
