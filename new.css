@@ -53,9 +53,9 @@ body {
     font-size: 1em;
     line-height: 1.6em;
     font-weight: 500;
-animation: slide_right 0.5s linear forwards;
-  animation-delay: 0.2s;
-  opacity: 0;
+    animation: slide_right 0.5s linear forwards;
+    animation-delay: 0.2s;
+    opacity: 0;
 }
 @keyframes slide_right
 {
@@ -69,5 +69,51 @@ animation: slide_right 0.5s linear forwards;
      transform: translateX(0px);
     opacity: 1;
   }
+}
+.photo{
+    margin-top: 10%;
+    margin-left: 50%;
+    width: 200px;
+    height: 240px;
+}
+.paw{
+    margin-top: 10%;
+    margin-left: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+ .box{
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgba(233, 218, 218, 0.938);
+    top: 56%;
+    left: 20%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+    background-position: ce;
+    border-radius: 10px;
+    display: flex;
+}
+.avater{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    border-radius: 50%;
+    left: calc(50% - 50px);
+}
+.box label{
+	 margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.box input{
+    width: 95%;
+    margin-bottom: 20px;
+    
 }
 
