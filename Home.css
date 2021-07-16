@@ -354,3 +354,259 @@ header .icons i:hover{
   width:100%;
 }
 
+.review .review-slider{
+  padding-bottom: 2rem;
+}
+
+.review .box{
+  padding:2rem;
+  text-align: center;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  border-radius: .5rem;
+}
+
+.review .box img{
+  height:13rem;
+  width:13rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.review .box h3{
+  color:#333;
+  font-size: 2.5rem;
+}
+
+.review .box p{
+  color:#666;
+  font-size: 1.5rem;
+  padding:1rem 0;
+}
+
+.review .box .stars i{
+  color:var(--orange);
+  font-size: 1.7rem;
+}
+.gallery .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+}
+
+.gallery .box-container .box{
+  overflow: hidden;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  border:1rem solid #fff;
+  border-radius: .5rem;
+  flex:1 1 30rem;
+  height: 25rem;
+  position: relative;
+}
+
+.gallery .box-container .box img{
+  height: 100%;
+  width:100%;
+  object-fit: cover;
+}
+
+.gallery .box-container .box .content{
+  position: absolute;
+  top:-100%; left:0;
+  height: 100%;
+  width:100%;
+  text-align: center;
+  background:rgba(0,0,0,.7);
+  padding:2rem;
+  padding-top: 5rem;
+}
+
+.gallery .box-container .box:hover .content{
+  top:0;
+}
+
+.gallery .box-container .box .content h3{
+  font-size: 2.5rem;
+  color:var(--orange);
+}
+
+.gallery .box-container .box .content p{
+  font-size: 1.5rem;
+  color:#eee;
+  padding:.5rem 0;
+}
+.gallery .box-container .box .content .search{
+   display: inline-block;
+  margin-top: 1rem;
+ 
+  color:#fff;
+  padding:.8rem 3rem;
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+.brand-container{
+  text-align: center;
+}
+
+
+  
+ 
+  footer{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background:#333;
+  height: auto;
+  width: 98.8vw;
+  padding-top: 40px;
+  color: #fff;
+  }
+  .footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  }
+  .footer-content h3{
+  font-size: 2rem;
+  font-weight: 800;
+  text-decoration: capitalize;
+  line-height: 3rem;
+  font-family: showcard gothic;
+  letter-spacing: 2px;
+  -webkit-text-stroke-width:1px;
+  -webkit-text-stroke-color:black;
+  }
+  .footer-content p{
+  max-width: 600px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  font-family: sans-serif;
+  }
+  .socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+  
+  
+  }
+  .socials li{
+  margin: 0 30px;
+  
+  }
+  .socials a{
+  text-decoration: none;
+  color: #fff;
+  
+  
+  }
+  .socials a i{
+  font-size: 1.5rem;
+  }
+  .socials a:hover i{
+ color:var(--orange);
+  }
+  .footer-bottom{
+  background:#262626;
+  width: 98.8vw;
+  padding: 20px 0;
+  text-align: center;
+  }
+  .footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+  }
+  .footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+  }
+
+.scroll{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background:rgba(0, 0, 0, 0.4) ;
+  bottom: 30px;
+  right: 40px;
+  font-size:45px;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+
+}
+
+
+/* media queries  */
+
+@media (max-width:1200px){
+
+  html{
+    font-size: 55%;
+  }
+
+}
+
+@media (max-width:991px){
+
+  header{
+    padding:2rem;
+  }
+
+  section{
+    padding:2rem;
+  }
+
+}
+
+@media (max-width:768px){
+
+  #menu-bar{
+    display: initial;
+  }
+
+  header .navbar{
+    position: absolute;
+    top:100%; right:0; left: 0;
+    background: #333;
+    border-top: .1rem solid rgba(255,255,255,.2);
+    padding:1rem 2rem;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  header .navbar.active{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  header .navbar a{
+    display: block;
+    border-radius: .5rem;
+    padding:1.5rem;
+    margin:1.5rem 0;    
+    background:#222;
+  }
+
+}
+
+@media (max-width:450px){
+
+  html{
+    font-size: 50%;
+  }
+
+  .heading span{
+    font-size: 2.5rem;
+  }
+
+  .contact .row form .inputBox input{
+    width:100%;
+  }
+
+}
+
+
