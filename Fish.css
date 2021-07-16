@@ -35,7 +35,7 @@ body{
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url(https://wallpapercave.com/wp/XklT0Ry.jpg);
+    background-image: url("Images/Image 61.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -270,14 +270,18 @@ body{
   align-items: center;
   justify-content: center;
   margin: 1rem 0 3rem 0;
+  
+  
   }
   .socials li{
   margin: 0 30px;
-   }
+  
+  }
   .socials a{
   text-decoration: none;
   color: #fff;
- 
+  
+  
   }
   .socials a i{
   font-size: 1.1rem;
