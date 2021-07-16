@@ -35,7 +35,7 @@ body{
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url(http://2.bp.blogspot.com/-AnKaxGnqM5I/T9wh7AUhE-I/AAAAAAAAPfc/GHxOWpPZ4No/s1600/all-in-onewallpapersfortollyto3d.blogspot+%25281%2529.jpg);
+    background-image: url("Images/Image 74.jpg");
     background-position: center;
     background-size: cover;
    
@@ -223,7 +223,7 @@ body{
     float: right;  
   }
 
-   /*  Footer  */
+  /*  Footer  */
   @import url('https://fonts.googleapis.com/css2?family=Acme&family=Itim&family=Open+Sans&display=swap');
   *{
   margin: 0;
