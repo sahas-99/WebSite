@@ -34,7 +34,7 @@ body{
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url(https://image.shutterstock.com/image-photo/colorful-portrait-amazon-red-macaw-260nw-1188862585.jpg);
+    background-image: url("Images/Image 48.jpg");
     background-position: center;
     background-size: cover;
     
@@ -222,7 +222,6 @@ body{
     float: right;  
   }
 
- 
   /*  Footer  */
   @import url('https://fonts.googleapis.com/css2?family=Acme&family=Itim&family=Open+Sans&display=swap');
   *{
@@ -271,8 +270,9 @@ body{
   align-items: center;
   justify-content: center;
   margin: 1rem 0 3rem 0;
- 
-   }
+  
+  
+  }
   .socials li{
   margin: 0 30px;
   
@@ -305,3 +305,4 @@ body{
   opacity: .4;
   font-weight: 200;
   }
+
