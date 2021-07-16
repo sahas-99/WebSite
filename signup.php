@@ -12,13 +12,13 @@
                <h1 class="logo">PET CITY</h1>
                <h2>Pets are humanizing.They reminds us we have an obligaton and responsibility to preserve and nurture and care for all life..</h2>
                <div class="img">
-                    <img src="https://www.clker.com/cliparts/6/2/g/v/I/d/pet-md.png" class="paw">
+                    <img src="image/img-3.png" class="paw">
                </div>
           </div>
 </div>
 
      <div class="box">
-           <img src="https://crowd-literature.eu/wp-content/uploads/2015/01/no-avatar.gif" class="avater">
+           <img src="image/img-2.gif" class="avater">
      <form action="signup-check.php" method="post">
      	<h2>SIGN UP</h2>
      	<?php if (isset($_GET['error'])) { ?>
