@@ -131,7 +131,7 @@ body{
     display: flex;
     justify-content: center;
     min-height: 100vh;
-    background: url(https://animalhospitaloflewisville.com/wp-content/uploads/2019/08/two-veterinarians-with-dog-1.jpg) no-repeat;
+    background: url(image/h-2.jpg) no-repeat;
     background-size: 100% 500px;
 }
 .container{
@@ -426,22 +426,22 @@ h3{
 .slider{
 	width: 1200px;
 	height: 600px;
-	background: url(https://gdurl.com/Ibci);
+	background: url(image/slide-4.png);
 	margin: 80px auto;
 	animation: slide 35s infinite;
 }
 @keyframes slide{
 	25%{
-		background: url(https://gdurl.com/h6b3);
+		background: url(image/slide-1.png);
 	}
 	50%{
-		background: url(https://gdurl.com/KCH3);
+		background: url(image/slide-2.png);
 	}
 	75%{
-		background: url(https://gdurl.com/3G_HV);
+		background: url(image/slide-3.png);
 	}
 	100%{
-		background: url(https://gdurl.com/Ibci);
+		background: url(image/slide-4.png);
 	}
 }
 	
