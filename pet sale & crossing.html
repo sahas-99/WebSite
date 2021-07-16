@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html>
-<head>
-  <title>Pet Sale & Crossing</title>
-            <!--------Custom Stylesheet-------->
-        <link href="style.css" type="text/css" rel="stylesheet">
-            <!--------Google Fonts-------->
+    <head>
+        <title>Pet Sale & Crossing</title>
+        <!--------Custom Stylesheet-------->
+        <link href="Pet-Sale.css" type="text/css" rel="stylesheet">
+        <!--------Google Fonts-------->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,69 +19,83 @@
                     <h1>Pet Sale & Crossing</h1>
                     </div>
             </div>
-          
+
             <!--------Gallery-------->
-            <div class="container">
-                <div class="gallery">
-                    <img src="https://dz9yg0snnohlc.cloudfront.net/people-who-love-animals-more-than-people-psychology-of-empathy-new.jpg">
-                </div>
 
-                <div class="gallery">
-                    <img src="https://bloximages.newyork1.vip.townnews.com/greensboro.com/content/tncms/assets/v3/editorial/0/36/036951da-7d85-5e58-94ae-db85392c0bc6/5e8540d313e3e.image.jpg?resize=1200%2C800">
-                </div>
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="https://stevedalepetworld.com/wp-content/uploads/2020/05/pet-love.jpg" alt="Dog lover" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://www.lifewithdogs.tv/wp-content/uploads/2015/05/5.16.15-10-Things-You-Should-Know-About-Dating-a-Dog-Lover1.jpg" alt="Dog lover" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://cf.ltkcdn.net/cats/images/orig/264833-2121x1414-cat-love.jpg" alt="Cat lover" style="width:100%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="https://cdn.vox-cdn.com/thumbor/0A3SEGk7bzubNDYfVl3kw9vZ_Ps=/0x0:1800x1200/1200x800/filters:focal(756x456:1044x744)/cdn.vox-cdn.com/uploads/chorus_image/image/69462683/parrot1.0.jpg" alt="Bird lover" style="width:100%" onclick="myFunction(this);">
+  </div>
+</div>
 
-                <div class="gallery">
-                    <img src="https://d17fnq9dkz9hgj.cloudfront.net/uploads/2012/11/134247453-youth-work-animals-632x475.jpg">
-                </div>
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
 
-                <div class="gallery">
-                    <img src="https://www.womansworld.com/wp-content/uploads/2018/09/people-and-birds.jpg?w=750">
-                </div>
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
 
-                <div class="gallery">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR95eUai-EoaUOJeG_JMa38BOWwrxJOiihKIA&usqp=CAU">
-                </div>
-
-                <div class="gallery">
-                    <img src="https://www.robertneralich.com/wp-content/uploads/2017/02/Sax.jpg">
-                </div>
-            </div>
 
             <!--------Pet Sale-------->
                 <h2>Pet Sale</h2>
 
-                <section class="banner" id="banner">
-                    <div class="content">
-                      <b><h3>Pets are our best friend...</h3></b><br>
-                        <b><p>You can visit our Pet Sale web page and buy the Dogs, Cats, Fish and birds you want.</p></b>
-                          <b><a href="petsale.html" class="btn">Pet Sale</a></b>
-                    </div>
-                </section>
+                    <section class="banner" id="banner">
+                         <div class="content">
+                            <b><h3>Pets are our best friend...</h3></b><br>
+                            <b><p>You can visit our Pet Sale web page and buy the Dogs, Cats, Fish and birds you want.</p></b>
+                            <b><a href="PSale.html" class="btn">Pet Sale</a></b>
+                        </div>
+                    </section>
 
-             <!--------Pet Crossing-------->
+            <!--------Pet Crossing-------->
                 <h2>Pet Crossing</h2>
 
 
-                <section class="banner1" id="banner1">
-                  <div class="content">
-                    <b><h3>We have everything your Pet needs..</h3></b><br>
-                    <b><p>We take care your pets...</p></b>
-                    <b><a href="petcrossing.html" class="btn">Pet Crossing</a></b>
-                    </div>
-                </section>
+                    <section class="banner1" id="banner1">
+                        <div class="content">
+                            <b><h3>We have everything your Pet needs..</h3></b><br>
+                            <b><p>We take care your pets...</p></b>
+                            <b><a href="petcrossing.html" class="btn">Pet Crossing</a></b>
+                        </div>
+                    </section>
+            
+                <!-------Footer------->
+<footer class="footer">
+<div class="footer-content">
+<h3>Pet City</h3>
+<p>Bound by an organizational culture - one that fosters respect and compassion to all animals and their human caretakers - PetCity sets itself apart from other many services in the country by treating your companion animals with the kind of care, love and kindness we show towards our own fur babies.</p>
 
-              <!--------Social media-------->
-                <footer>
-                    <div class="footer-content">
-                        <h3>Pet Shop</h3>
-                        <ul class="socials">
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                            <li><a href="#"></a><i class="fa fa-github"></i></li>
-                        </ul>
-                    </div>  
-                </footer>
-</body>
+<ul class="socials">
+<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+</ul>
+</div>
+<div class="footer-bottom">
+<p>All Right reserved by &copy;petcity 2021</p>
+</div>
+</footer>
+<!-- End Footer -->
+
+        </body>
 </html>
+
