@@ -20,7 +20,7 @@
     
           <div class="box">
           
-           <img src="https://crowd-literature.eu/wp-content/uploads/2015/01/no-avatar.gif" class="avater">
+           <img src="image/img-2.gif" class="avater">
           <form action="login.php" method="post">
       <h2>SIGN IN</h2>
       <?php if (isset($_GET['error'])) { ?>
