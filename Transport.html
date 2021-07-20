@@ -1,285 +1,110 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>PetCity - Transport</title>
-	<link rel="stylesheet" type="text/css" href="Tservice.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+   
+    <title>PetCity-PetTransport</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PetCity - Pet Transport</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Transport.css">   
+
 
 </head>
 <body>
 
-	<h1 class="topic1">Pet Transport Services</h1>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Pet Transport</a>
+                </div>
 
-	<div class="slideshow-container">
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="https://dogtime.com/assets/uploads/2019/10/RideDog_Jacobs-Stock-Photography-Ltd.jpg" style="width:100%" height="600px">
-  <div class="text">www.PetCity.com</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="https://scandasia.com/wp-content/uploads/2019/12/Animals_Transport_Services.png" style="width:100%">
-  <div class="text">www.PetCity.com</div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="https://s3fs.bestfriends.org/s3fs-public/Blog-palmvalleypawsdogs7480sak.jpg" style="width:100%" height="600px">
-  <div class="text">www.PetCity.com</div>
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
-
-<script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-}
-</script>
-
-<!--nav bar-->
-<button class="tablink" onclick="openPage('Home', this, 'white')" id="defaultOpen">Services</button>
-<button class="tablink" onclick="openPage('News', this, 'white')" >Pet Taxi Services</button>
-<button class="tablink" onclick="openPage('Contact', this, 'white')">Pet Travel Services</button>
-<button class="tablink"  onclick="openPage('About', this, 'white')">Emergency Services</button>
-
-<div id="Home" class="tabcontent">
-  <div class="ptaxi">
-  <span style="vertical-align: top;">
-  <img style="float: left;" src="Pet-Taxi.png">
-  <h2 class="sbp1">Pet Taxi Service</h2>
-  <h2 class="sbp2" style="color: black; float: left;">When you find it difficult to transport your pet our Pet Taxi services are here to help you with transportation to a location that you required. To make sure that your pets are safe and comfortable, two of our experienced and trained staff will be traveling with your pets throughout the journey. You can call our services centers' hotlines and make reservation whenever you need.
-Our Pet Taxis will provide transport from</h2>
-</span>
-</div>
-<br><br>
-<div class="ptravel">
-  <span style="vertical-align: top;">
-  <img id="img5" style="float: right;" src="unnamed.gif" width="50%">
-  <h2 class="sbp1" style="margin-left: 50px;">Pet Travel Service</h2>
-  <h2 class="sbp2" style="color: black; float: left; margin-left: 50px;">Our travel specialists will guide you step-by step for secure and comfortable travelling for your pet. Moment you contact us, we are responsible for your pet, and are always open for your queries and worries.</h2>
-</span>
-</div>
-<br><br>
-<div class="pemergency">
-  <span style="vertical-align: top;">
-  <img id="img6" style="float: left;" src="64-647808_ambulance-clipart-pet-cartoon.png" width="50%">
-  <h2 class="sbp1">Emergency Service</h2>
-  <h2 class="sbp2" style="color: black; float: left;">There is no good time for a pet to get sick, but it can be especially taxing when your pet has a medical emergency at night. The services is built with world-class best practices and protocols to facilitate the most demanding veterinary emergency services.</h2>
-</span>
-</div>
-<br><br>
-</div>
- 
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="Tservice.html">Pet Services</a></li>
+                        <li><a href="http://localhost/trans/transbook.php">Book Now</a></li>
+                        <div class="dropdown">
  
 </div>
 
-<div id="News" class="tabcontent">
- 
-  <img id="img1" src="https://static.tuugo.co.za/images/420/81/the-pets-taxi_0_.jpg" width="60%"> 
-  <div class="map"> <iframe src="https://www.google.com/maps/d/u/0/embed?mid=14MFIdx7bey2lI3xyLoUdkJ2YiGgmiy31" style="border:0" width="100%" height="500px" allowfullscreen="" loading="lazy"></iframe></div>
 
-<div class="row">
-  
 
-        <div class="container">
-            <div class="grid">
-                <h2 class="title">Homagama</h2>
-                <img id="pg" src="tran.jpg" width="95%">
-                    <h4 class="titletext">Home,James <br>Pet Taxi Service</h4><br>
-                    <p class="text">No:202 Highlevel Road Kendalanda Homagama<br>0772600512</p>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="banner" style="background-image: url(https://www.premierpettransport.com.au/wp-content/uploads/2014/10/hero-banner2.jpg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated bounceInRight" style="animation-delay: 1s">Take your Pet <span>Wherever</span><br> Life takes you</h2>
+                        <h3 class="animated bounceInLeft" style="animation-delay: 2s"></h3>
+                        <p class="animated zoomIn" style="animation-delay: 3s"><a href="Tservice.html">See more</a>&emsp; &emsp;
+                   <a href="http://localhost/trans/transbook.php">Book Now</a></p>
                     
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner" style="background-image: url(https://www.petspyjamas.com/uploads/2015/11/feature-image-new-pet-1140x300.jpg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated slideInDown" style="animation-delay: 1s">We Are <span>Helpers</span></h2>
+                        <h3 class="animated fadeInUp" style="animation-delay: 2s">For your pets Transporting</h3>
+                        <p class="animated zoomIn" style="animation-delay: 3s"><a href="Tservice.html">See more</a>&emsp; &emsp;
+                   <a href="http://localhost/trans/transbook.php">Book Now</a></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner" style="background-image: url(https://www.indoindians.com/wp-content/uploads/2019/08/0d8fb2_712ec6ac269a48e5bb59408454e724da_mv2_d_2855_1469_s_2.jpg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated zoomIn" style="animation-delay: 1s">reliable and safe <span>Pet Relocation Service</span></h2>
+                        <h3 class="animated fadeInLeft" style="animation-delay: 2s">The Most Trusted Travelars work with Us</h3>
+                      <p class="animated zoomIn" style="animation-delay: 3s"><a href="Tservice.html">See more</a>&emsp; &emsp;
+                   <a href="http://localhost/trans/transbook.php">Book Now</a></p>
+                    </div>
+                </div>
 
             </div>
 
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
 
+    </header>
 
-           
-         <div class="grid">
-                <h2 class="title">Nugegoda</h2>
-                <img id="pg" src="https://static.wixstatic.com/media/27767b_94cfaea903f6471db87fe55fe364d670~mv2.jpg/v1/fill/w_264,h_136,al_c,lg_1,q_80/Asset%201-100.webp" width="90%">
-                    <h4 class="titletext">Pet Taxi</h4><br>
-                    <p class="text">523/4 Wijayarama Junction Gangodawila Nugegoda<br>0714244999<br></p>
-                    
-            </div>
-        
-            <div class="grid">
-                <h2 class="title">Kadawatha</h2>
-                <img id="pg" src="https://i.ytimg.com/vi/yqGd12SKq7w/maxresdefault.jpg" width="90%">
-                    <h4 class="titletext">Taxi My Pet</h4><br>
-                    <p class="text"> Kandy Road Mahara Kadawatha<br>0777605610<br></p>
-                    
-
-            </div>
-    </div>
-    <br><br>
-    <a class="arrow" href="#">See more<i class="fas fa-angle-double-right"></i></a><br>
-</div>
-    <br><br>
-
-
-
-  
-</div>
-
-<div id="Contact" class="tabcontent">
-  <h1 class="topic2">ENSURE SAFE <br>TRAVEL FOR <br>YOUR PET</h1>
- <img id="img2" style="float: right;" src="https://just4petsegypt.com/wp-content/uploads/2019/09/cani.png" width="60%">
-
- <div class="map"> <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1gJC8zU6p06YLzbWi0FsIfLDyT6XVi7xu" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
-  
-  <div class="row">
-  
-
-        <div class="container">
-            <div class="grid">
-                <h2 class="title">Homagama</h2>
-                <img id="pg" src="https://www.animal-travel.com/wp-content/uploads/2018/06/ats-logo-2x.png" width="95%">
-                    <h4 class="titletext">Animal Travel Services</h4><br>
-                    <p class="text">No:202 Highlevel Road Kendalanda Homagama<br>0772600512</p>
-                    
-
-            </div>
-
-
-
-           
-         <div class="grid">
-                <h2 class="title">Nugegoda</h2>
-                <img id="pg" src="https://premierpettravel.com/wp-content/uploads/2019/11/Logo.png" width="90%">
-                    <h4 class="titletext">Premier Pet Travel</h4><br>
-                    <p class="text">523/4 Wijayarama Junction Gangodawila Nugegoda<br>0714244999<br></p>
-                    
-            </div>
-        
-            <div class="grid">
-                <h2 class="title">Kadawatha</h2>
-                <img id="pg" src="http://petcaresrilanka.com/wp-content/uploads/2017/05/Pet-Express-Sri-Lanka5.jpg" width="90%">
-                    <h4 class="titletext">Pet Express</h4><br>
-                    <p class="text"> Kandy Road Mahara Kadawatha<br>0777605610<br></p>
-                    
-
-            </div>
-
-    </div>
-    <br><br>
-    <a class="arrow" href="#">See more<i class="fas fa-angle-double-right"></i></a><br>
-</div>
-    <br><br>
-
-</div>
-
-<a class="angle-double-up" href="#"><i class="fas fa-angle-double-up"></i></a>
-
-<div id="About" class="tabcontent">
-  <h1 class="topic3">24x7 <br> Emergency <br> Services</h1>
- <img id="img3" style="float: right;" src="https://lh3.googleusercontent.com/proxy/LnvVtXs4IMmZD7PqHhgC3qM08cG9xX6HbTA-I47cbCGcrr4UxvGN7_rMltKlrUE8roShoXiwpuGfn2IU1463UhUHL_Vw6Mk" width="50%">
-
- <div class="map"> <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1gJC8zU6p06YLzbWi0FsIfLDyT6XVi7xu" width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
-  
-  <div class="row">
-  
-
-        <div class="container">
-            <div class="grid">
-                <h2 class="title">Homagama</h2>
-                <img id="pg" src="https://static.wixstatic.com/media/bfedcc_03b00b32082441f8a22f3382c6839fc3~mv2.jpg/v1/fill/w_640,h_544,al_r,q_80,usm_0.66_1.00_0.01/bfedcc_03b00b32082441f8a22f3382c6839fc3~mv2.webp" width="95%">
-                    <h4 class="titletext">Animal Ambulance</h4><br>
-                    <p class="text">No:202 Highlevel Road Kendalanda Homagama<br>0772600512</p>
-                    
-
-            </div>
-
-
-
-           
-         <div class="grid">
-                <h2 class="title">Nugegoda</h2>
-                <img id="pg" src="https://www.heraldtribune.com/galleryimage/LK/20160912/NEWS/909009993/PH/0/3/PH-909009993.jpg" width="90%">
-                    <h4 class="titletext">VetCare Express</h4><br>
-                    <p class="text">523/4 Wijayarama Junction Gangodawila Nugegoda<br>0714244999<br></p>
-                    
-            </div>
-        
-            <div class="grid">
-                <h2 class="title">Kadawatha</h2>
-                <img id="pg" src="https://st2.depositphotos.com/1007168/6108/v/950/depositphotos_61082729-stock-illustration-doctor-driving-veterinary-ambulance.jpg" width="90%">
-                    <h4 class="titletext">Veterinary Ambulance</h4><br>
-                    <p class="text"> Kandy Road Mahara Kadawatha<br>0777605610<br></p>
-                    
-
-            </div>
-</div>
-<br><br>
-    <a class="arrow" href="#">See more<i class="fas fa-angle-double-right"></i></a><br>
-</div>
-</div>
-
-<script>
-function openPage(pageName,elmnt,color) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].style.backgroundColor = "";
-  }
-  document.getElementById(pageName).style.display = "block";
-  elmnt.style.backgroundColor = color;
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
-
-
-
-
-
-<a class="angle-double-up" href="#"><i class="fas fa-angle-double-up"></i></a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </body>
 </html>
