@@ -38,7 +38,17 @@ text-align: left;
 margin-top: -550px;
 margin-left: 60px;
 font-size: 20px; 
+display: flex;
 
+}
+.bla h2{
+  background-color: #fff;
+}
+.bla .fa-home{
+    color:#ff1493;
+   font-size: 3rem;
+background-color: #fff;
+padding-right: 2rem;
 }
 
 
