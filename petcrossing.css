@@ -1,10 +1,13 @@
 *{
-   margin: 0;
-   padding: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
 }
 body{
     background-color: #e9d3ff;
-    align-items: center;
+   
 }
 /* sidebar */
 .wrapper{
@@ -17,8 +20,8 @@ body{
 }
 .wrapper .sidebar{
     position: fixed;
-    width: 90px;
-    height: 70%;
+    width: 105px;
+    height: 100%;
     background: #c9b6cf;
     padding: 30px 0;
 }
@@ -47,73 +50,66 @@ body{
     color: #c5a2e7;
 }
 
-section{
-    min-height: 60vh;
+.banner{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(rgba(109, 104, 107, 0.75),rgba(12, 6, 11, 0.75)), url(https://www.cdc.gov/healthypets/images/about-pets-people.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 40px;
 
 }
-/* Topic */
-.home{
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.home .image{
-    flex: 1 1 40rem;
-}
-.home .image img{
-    width: 80%;
-    height: 75vh;
-    padding: 2%;
-    margin-left: 80px;
-}
-.home .image img:hover{
-    width: 90%;
-    height: 80vh;
-}
-.home .content h1{
-    margin-left: 130px;
-    margin-top: 0.2px;
     text-align: center;
-    font-size: 70px;
-    font-family: "showcard Gothic";
-    color: #fdfbfd;
-	-webkit-text-stroke-width:5px;
-	-webkit-text-stroke-color: black;
+    justify-content: space-between;
 }
-.home .content span{
-    color: #ce81e7;
-}
-.home .content h3{
-    color: #060008;
-    font-size: 2rem;
-    
-}
-.home .content h3:hover{
-    font-size: 2.5rem;
-}
-.btn{
+.navbar ul li{
+    list-style: none;
     display: inline-block;
-    margin-top: 10%;
-    padding: 1.5rem 2rem;
-    border-radius: 1rem;
-    background: #bc8dce;
-    color: #09000c;
-    overflow: hidden;
+    margin: 0 20px;
     position: relative;
-    z-index: 0;
-    font-size: 1rm;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #f7f2f7;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-left: 20px;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #a566a5;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}  
+.navbar ul li:hover::after{
+    width: 100%;
 
 }
-.btn:hover{
-    background: #20022b;
-    color: #edd7f5;
-}
-
 h1{
-    font-size: 3rem;
-    font-weight: 300px;
     margin-top: 100px;
+    text-align: left;
+    font-family: "showed Gothic";
+    width: 100%;
+    color: #e8e5e9;
+    font-size: 7rem;
+    -webkit-text-stroke-width: 6px;
+    -webkit-text-stroke-color: #0a020e;
+    margin-left: 60px;
+
+}
+.topic h2{
+    font-size: 4rem;
+    font-weight: 300px;
+    margin-top: 40px;
     text-align: center;
     letter-spacing: 2px;
     color: #16011d;
@@ -123,27 +119,30 @@ h1{
 .container{
     position: relative;
     width: 1250px;
-    margin-left: 100px;
-    margin-top: 5%;
+    margin-left: 150px;
+    margin-top: 3%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 20px;
+    background-color: #ccc9cc;
      
 }
  .card{
     position: relative;
     width: 250px;
-    height: 300px;
+    height: 330px;
     display: flex;
-    padding: 2px;
+    padding: 15px;
     flex-direction: column;
-    box-shadow: 0 5px 15px #350c44;
+    box-shadow: 0 5px 15px #6e6272;
     transition: 0.3s ease-out;
 }
 
 .card:hover{
-    height: 300px;
+    height: 350px;
     background: #d5aae4;
+    
 }
 .card .imgbox{
     position: relative;
@@ -170,8 +169,8 @@ h1{
     bottom: 0;
     width: 100%;
     height: 100px;
-    padding: 12px;
-    background: #cfbad6;
+    padding: 30px;
+    background: #90719b;
     color: #190125;
     transition: all 0.5s cubic-bezier(.48, -0.28, 0.41, 1.4);
     box-sizing: border-box;
@@ -185,7 +184,7 @@ h1{
     background: #f8f7f8;
 
 }
-.content p{
+.card .content p{
     margin: 5px 0 0;
     padding: 2em 2em;
     transform: translate(2em);
@@ -205,151 +204,78 @@ h2{
 }
 .btn{
     display: inline-block;
-    margin-top: 7%;
-    padding: 0.5rem 2rem;
-    border-radius: 2rem;
-    background: #b072c9;
-    color: #09000c;
+    margin-top: 8%;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    background: #e0cee7;
+    color: #431f52;
     overflow: hidden;
     position: relative;
     z-index: 0;
-    font-size: 1.5rm;
-    left: 45%;
+    font-size: 1rm;
+    left: 5%;
+    text-decoration: none;
 }
 .btn:hover{
     background: #20022b;
     color: #edd7f5;
 
 }
-/* From */
-.pawback{
-    background-image: url();
-	display: flex;
-    width: 100%;
-    margin-left: 70px;
-}
-.back{
-	width: 50%;
-	height: 65vh;
-	margin-top: 10%;
-	margin-left: 2%;
-	
-	
-}
-.contactform{
-	width: 30%;
-	padding: 40px;
-	background: linear-gradient(#c9c1c9,#b16bd1,#ad9db8,#9c33cc);
-	margin-left: 5%;
-	margin-top: 10%;
-	margin-bottom:10%;
-	border-radius: 5%;
-	text-decoration: underline;
-	color: #702288;
-}
-.contactform h2{
-	font-size: 30px;
-	font-weight: 500;
-	font-family: 'Acme', sans-serif;
-	
-}
-.contactform .inputbox{
-	position: relative;
-	width: 100%;
-	margin-top: 20px;
-}
-.contactform .inputbox input,.contactform .inputbox textarea{
-	width: 100%;
-	padding: 5px 0;
-	font-size: 16px;
-	margin: 10px 0;
-	border: none;
-	border-bottom: 1px solid rgb(29, 28, 29);
-	outline: none;
-	resize: none;
-
-}
-.contactform .inputbox span{
-	position: absolute;
-	left: 0;
-	padding: 5px 0;
-	font-size: 16px;
-	margin: 10px 0;
-	pointer-events: none;
-	transition: 0.5s;
-	color: #666;
-	
-}
-.contactform .inputbox input:focus ~ span,
-.contactform .inputbox input:valid ~ span,
-.contactform .inputbox textarea:focus ~ span,
-.contactform .inputbox textarea:valid ~ span
-{
-	color: #c634eb;
-	font-size: 12px;
-	transform: translateY(-20px);
-
-}
-.contactform .inputbox input[type="submit"]
-{
-	width: 100px;
-	background:#570570;
-	color: rgb(221, 206, 224);
-	border: none;
-	cursor: pointer;
-	padding: 10px;
-	font-size: 18px;
-	border: 1px solid rgb(206, 179, 212);
-	border-radius: 5%;
-}
-form{
-	justify-content: center;
-}
-.contactform .inputbox input[type="submit"]:hover,
-.contactform .inputbox input[type="submit"]:active{
-	background-color: #0d010f;
-}
-/* Social Media */
-footer{
-    background: #09000c;
-    height: auto;
-    width: 100vw;
-    font-family: "Open Sans";
-    padding-top: 40px;
-    color: #e3d4e9;
-}
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.sign-up-form{
+    
+    width: 300px;
+    height: 500px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #dbafdb;
+    padding: 20px;
+    margin-left: 120px;
+    margin-top: 90px;
     text-align: center;
 }
-footer-content h3{
-    font-size: 2.2rem;
-    font-weight: 400;
-    text-transform: capitalize;
-    line-height: 14px;
-}
-.socials{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 0 3rem 0;
-}
-.socials li{
-    margin: 0 20px;
-}
-.socials a{
-    text-decoration: none;
-    color: #f5f2f7;
+.sign-up-form h3{
+    color: #7c3d7c;
+    margin-bottom: 30px;
 
 }
-.socials a i{
-    font-size: 1.5rem;
-    transition: color .4s ease;
+.input-box{
+    border-radius: 22px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #c634eb;
+    outline: none;
 }
-socials a:hover i{
-    color: #a78db1;
+button{
+    color: #93759c;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
+.signup-btn{
+    background-color: #5a2e6b;
+}
+.facebook-btn{
+    background-color: #e0c5e7;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin-top: 20px;
+    width: 80px;
+}
+.or{
+    background: #f0ebf1;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+img{
+    width: 50px;
+}
+
+https://www.pumpkin.care/blog/wp-content/uploads/2021/04/Pets-People-and-the-Pandemics.png
