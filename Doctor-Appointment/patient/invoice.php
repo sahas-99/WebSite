@@ -29,7 +29,7 @@ $userRow=mysqli_fetch_array($res,MYSQLI_ASSOC);
                         <table>
                             <tr>
                                 <td class="title">
-                                    <img src="assets/img/logo.png" style="width:100%; max-width:300px;">
+                                    <img src="assets/img/a011_663s_160318.jpg" style="width:100%; max-width:250px;">
                                 </td>
                                 
                                 <td>
@@ -50,7 +50,8 @@ $userRow=mysqli_fetch_array($res,MYSQLI_ASSOC);
                                 </td>
                                 
                                 <td><?php echo $userRow['patientIc'];?><br>
-                                    <?php echo $userRow['patientFirstName'];?> <?php echo $userRow['patientLastName'];?><br>
+                                 Pet Name: <?php echo $userRow['patientFirstName'];?> <br>
+                                 Owner Name: <?php echo $userRow['patientLastName'];?><br>
                                     <?php echo $userRow['patientEmail'];?>
                                 </td>
                             </tr>
