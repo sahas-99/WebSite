@@ -15,7 +15,7 @@ SET time_zone = "+00:00";
 -- Database: `db_healthcare`
 --
 
--- --------------------------------------------------------
+
 
 --
 -- Table structure for table `appointment`
