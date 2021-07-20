@@ -7498,3 +7498,11 @@ input[type="checkbox"]:disabled:checked:after,
 .carousel-caption h6 {
   color: inherit;
 }
+  
+  
+.fa-home{
+color: #fff;
+font-size: 4rem;
+padding-right: 2rem;
+}
+
