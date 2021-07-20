@@ -29,7 +29,7 @@
           </div>
           <ul class="nav-list">
             <li class="nav-item">
-              <a href="#home" class="nav-link">Home</a>
+              <a href="web.php" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
               <a href="Dog.html" class="nav-link">Dog</a>
