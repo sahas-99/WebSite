@@ -274,13 +274,13 @@ html{
     
     
     .categories-col {
-        flex-basis: 32%;
+        flex-basis: 20%;
         border-radius: 10px;
         margin-bottom: 5%;
         position: relative;
         overflow: hidden;
         z-index: 0;
-        padding: 25px 15px;
+        padding: 5px 15px;
         box-sizing: border-box;
 
     	
@@ -447,19 +447,26 @@ html{
     flex-basis: 50%; 
 }
 .col-3 .offer-img{
-	padding: 25px;
+   
+    margin-top: 8%;
+    margin-left: 8%;
+
 }
 .col-3 h1{
     font-size: 50px;
     line-height: 60px;
-    margin: 25px 0;
+    
+    margin-left: -100%;
 }
 .col-3 p {
     font-size: 25.2px;
+    text-align: center;
+    margin-left: -200%;
 }
 small{
 	color: #555;
-    font-size: 20.2px;
+    	font-size: 20.2px;
+	 margin-left: -100%;
 }
 
 /* Brands */
