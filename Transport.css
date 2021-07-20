@@ -18,6 +18,11 @@ header .carousel-inner .item {
     -webkit-text-stroke-color: black;
     
 }
+.nav.navbar-nav.navbar-right .fa-home{
+    color: black;
+   font-size: 2rem;
+   
+}
 .nav.navbar-nav.navbar-right {
     margin: 25px 0;
 }
