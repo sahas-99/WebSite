@@ -16,12 +16,14 @@ html{
     
  }
  .logo h1 {
-	color:#243a6f;
-	font-family: "showcard Gothic";   
+    color:#041350 ;
+    font-family: "showcard Gothic";   
     font-size: 3.5rem;
     font-weight: 400;
     position: relative;    
     z-index: 1;   
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff ;
  }
  
  h2,
@@ -65,7 +67,7 @@ html{
     overflow: hidden;
 }
 .nav {
-    padding: 1.6rem 0;
+    padding: 0;
    
 }
 
@@ -93,14 +95,19 @@ html{
     align-items: center;
     justify-content: space-between;
 }
-
+.nav .fa-home{
+    color: #fff;
+   font-size: 3rem;
+   padding-right: 1rem;
+}
 .top-nav {
     display: none;
 }
 .nav-list {
     display: flex;
     align-items: center;
-    
+     margin-left: 30%;
+    margin-right: 12rem;
     
 }
 .nav-item:not(:last-child) {
@@ -232,7 +239,7 @@ html{
     .col p {
         font-size: 20.2px;
     }
-    .btn{
+   .col-3 .btn{
         display: inline-block;
         background:#6c6ef5;
         color: #fff;
@@ -241,7 +248,7 @@ html{
         border-radius: 30px; 
         transition: background 0.5s;
     }
-    .btn:hover{
+    .col-3 .btn:hover{
         background: #563434;
     }
     .col-2{
@@ -647,6 +654,36 @@ small{
     float: right;  
     
   }
+img{
+    max-width: 100%;
+    height: auto;
+    background: lightblue;
+    background: radial-gradient(white 30%, lightblue 70%);
+}
+
+.fa-star,
+.fa-star-half{
+    color: yellowgreen;
+    padding: 3% 0;
+}
+
+#cart_count{
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem;
+}
+
+.shopping-cart{
+    padding: 3% 0;
+}
+
+.cart-items + .cart-items{
+    padding: 2% 0;
+}
+
+.price-details h6{
+    padding: 3% 2%;
+}
 
   
     
