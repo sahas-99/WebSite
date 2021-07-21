@@ -221,6 +221,9 @@ h2{
     color: #edd7f5;
 
 }
+.form{
+    display: flex;
+}
 .sign-up-form{
     
     width: 300px;
@@ -277,5 +280,90 @@ hr{
 img{
     width: 50px;
 }
-
+.photo{
+    margin-top: 7%;
+    margin-left: 100px;
+    background-size: cover;
+    height: 80%;
+    width: 100%;
+}
+.photo img{
+    width: 90%;
+    height: 30%;
+}
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:#3b3b3b;
+    height: auto;
+    width: 98.8vw;
+    padding-top: 40px;
+    color: #fff;
+    margin-top: 20px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2rem;
+    font-weight: 800;
+    text-decoration: capitalize;
+    line-height: 3rem;
+    font-family: showcard gothic;
+    letter-spacing: 2px;
+    -webkit-text-stroke-width:1px;
+    -webkit-text-stroke-color:black;
+}
+.footer-content p{
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    
+    
+}
+.socials li{
+    margin: 0 30px;
+    
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+      
+}
+.socials a i{
+    font-size: 1.1rem;
+}
+.socials a:hover i{
+    color: rgb(150, 58, 150);
+}
+.footer-bottom{
+    background:#262626;
+    width: 98.8vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
 https://www.pumpkin.care/blog/wp-content/uploads/2021/04/Pets-People-and-the-Pandemics.png
